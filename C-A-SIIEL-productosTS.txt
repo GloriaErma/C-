@@ -1,0 +1,176 @@
+
+
+import { DatePipe } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+
+import { Todo } from '../models/todo';
+
+//FormsModule,                  // import that formGroup  GECS in app.module.ts
+//ReactiveFormsModule,          // import that formGroup  GECS in app.module.ts
+
+@Component({
+  selector: 'app-productos',
+  templateUrl: './productos.component.html',
+  styleUrls: ['./productos.component.css']
+})
+export class ProductosComponent implements OnInit {
+  public toDay: Date = new Date();
+  form!: FormGroup;
+  select: Todo = new Todo;
+  NoVerFecha: boolean = false;
+  //array: Todo[] = [];
+  //array: string[] = ['p1', 'p2', 'p3'];
+  title = 'objecttoToArray';
+  prod = {
+    prod1: {
+      codigo: 1,
+      codigoBarra: 'barras p0',
+      nombre: 'Producto Uno',
+      descripcion: 'descripcion Producto Uno',
+      Bodega: 1,
+      Seccion: 2,
+      pasillo: 2,
+      estante: 8,
+      grupo: 1,
+      ipoconsumo: 5,
+      claseIva: 1,
+      medida: 5,
+      volumen: 10,
+      perenne: true,
+      perecedero: false,
+      fechaVence: '5/05/2021',
+      inventarioPropio: true,
+      inventarioConsigna: false,
+      embalaje: "Caja",
+      descuento: 0,
+      garantia: 5,
+      proveedor: 222,
+      mínimos: 55,
+      maximos: 5800,
+      valorCompra: 500,
+      precioSugerido: 555
+    },
+    prod2: {
+      codigo: 2,
+      nombre: 'Producto 2',
+      descripcion: 'descripcion Producto 2',
+      valorCompra: 100,
+      precioSugerido: 155
+    },
+    prod3: {
+      codigo: 3,
+      nombre: 'Producto 3',
+      descripcion: 'descripcion Producto 3',
+      valorCompra: 5000,
+      precioSugerido: 5550
+    },
+    prod4: {
+      codigo: 4,
+      nombre: 'Producto 4',
+      descripcion: 'descripcion Producto 4',
+      valorCompra: 4000,
+      precioSugerido: 4550
+    },
+    prod5: {
+      codigo: 5,
+      nombre: 'Producto 5',
+      descripcion: 'descripcion Producto 5',
+      valorCompra: 200,
+      precioSugerido: 255
+    },
+    prod6: {
+      codigo: 6,
+      nombre: 'Producto 6',
+      descripcion: 'descripcion Producto 6',
+      valorCompra: 3000,
+      precioSugerido: 3550
+    },
+    prod7: {
+      codigo: 7,
+      nombre: 'Producto 7',
+      descripcion: 'descripcion Producto 7',
+      valorCompra: 4000,
+      precioSugerido: 4550
+    },
+
+  };
+  data = Object.values(this.prod);  // convertir data a arreglo, e we iterate over data
+  dateString1 = new Date('1968-11-16T00:00:00');
+  dateString2 = new Date('1965-09-12T00:00:00');
+  EmplArray: Todo[] = [
+    {
+      id: 1, title: "Ricardo", descripcion: "Avena", done: false, createdDate: this.dateString1, updatedDate: this.dateString2
+    },
+    { id: 2, title: "María", descripcion: "Virgen", done: true, createdDate: this.dateString1, updatedDate: this.dateString2 },
+  ];
+  sel: Todo = new Todo();
+
+  arrBodega: string[] = ["Bodega1", "Bodega2", "Bodeja3"];
+
+  constructor(private formBuilder: FormBuilder ) { }
+
+  ngOnInit() {
+    this.form = this.formBuilder.group({
+      title: [this.sel.title, Validators.required],
+      descripcion: [this.sel.descripcion, Validators.required],
+      //createdDate: [this.sel.createdDate, Validators.required], // para q funcione [disabled]="form.invalid" para submit
+      createdDate: [this.sel.createdDate],
+      done: [this.sel.done],
+      updatedDate: [this.sel.updatedDate, Validators.required],
+    });
+    /// incluir en arreglo bodega
+ 
+
+
+  }
+  // SELECCION DE CADA REGISTRO DE CLASE
+  openForEdit(e: Todo) {
+    this.sel = e;
+    this.form = this.formBuilder.group({
+      title: [this.sel.title, Validators.required],
+      descripcion: [this.sel.descripcion, Validators.required],
+      done: [this.sel.done],
+      createdDate: [this.sel.createdDate],
+      updatedDate: [this.sel.updatedDate, Validators.required],
+    });
+  }
+
+  AddEdit() {
+    // NO hay empleado seleccionado == 0, es nuevo empleado
+    if (this.sel.id === 0) {
+      this.sel.id = this.EmplArray.length + 1;
+      if (!this.form.controls['done'].value) {
+        this.sel.done = false
+      }
+      else {
+        this.sel.done = true
+      }
+      this.sel.title = this.form.controls['title'].value,
+      this.sel.descripcion = this.form.controls['descripcion'].value
+      this.sel.createdDate = this.toDay;
+      this.sel.updatedDate = this.form.controls['updatedDate'].value
+
+      this.EmplArray.push(this.sel);
+    }
+    else {
+      this.EmplArray.push(this.sel);
+      this.EmplArray = this.EmplArray.filter(x => x != this.sel);
+      
+    }
+    // limpiar input formulario
+    this.sel = new Todo();
+  
+  }
+
+  delete() {
+    // El método filter te genera un nuevo array,
+    // tomado del array principal, con los elementos que cumplan una condición.
+    if (confirm("Are you sure you want to delete it?")) {
+      this.EmplArray = this.EmplArray.filter(x => x != this.sel);
+      this.sel = new Todo();
+    }
+  }
+
+
+}

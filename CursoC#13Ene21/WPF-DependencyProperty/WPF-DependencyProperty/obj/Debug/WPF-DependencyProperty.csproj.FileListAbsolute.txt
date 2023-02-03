@@ -1,0 +1,15 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-DependencyProperty\WPF-DependencyProperty\bin\Debug\WPF-DependencyProperty.exe.config
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-DependencyProperty\WPF-DependencyProperty\bin\Debug\WPF-DependencyProperty.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-DependencyProperty\WPF-DependencyProperty\bin\Debug\WPF-DependencyProperty.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-DependencyProperty\WPF-DependencyProperty\obj\Debug\WPF-DependencyProperty.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-DependencyProperty\WPF-DependencyProperty\obj\Debug\MainWindow.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-DependencyProperty\WPF-DependencyProperty\obj\Debug\App.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-DependencyProperty\WPF-DependencyProperty\obj\Debug\WPF-DependencyProperty_MarkupCompile.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-DependencyProperty\WPF-DependencyProperty\obj\Debug\WPF-DependencyProperty_MarkupCompile.lref
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-DependencyProperty\WPF-DependencyProperty\obj\Debug\MainWindow.baml
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-DependencyProperty\WPF-DependencyProperty\obj\Debug\WPF-DependencyProperty.g.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-DependencyProperty\WPF-DependencyProperty\obj\Debug\WPF_DependencyProperty.Properties.Resources.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-DependencyProperty\WPF-DependencyProperty\obj\Debug\WPF-DependencyProperty.csproj.GenerateResource.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-DependencyProperty\WPF-DependencyProperty\obj\Debug\WPF-DependencyProperty.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-DependencyProperty\WPF-DependencyProperty\obj\Debug\WPF-DependencyProperty.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-DependencyProperty\WPF-DependencyProperty\obj\Debug\WPF-DependencyProperty.pdb

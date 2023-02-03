@@ -1,0 +1,13 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Destructor\Destructor\obj\Debug\netcoreapp3.1\Destructor.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Destructor\Destructor\obj\Debug\netcoreapp3.1\Destructor.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Destructor\Destructor\obj\Debug\netcoreapp3.1\Destructor.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Destructor\Destructor\obj\Debug\netcoreapp3.1\Destructor.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Destructor\Destructor\bin\Debug\netcoreapp3.1\Destructor.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Destructor\Destructor\bin\Debug\netcoreapp3.1\Destructor.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Destructor\Destructor\bin\Debug\netcoreapp3.1\Destructor.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Destructor\Destructor\bin\Debug\netcoreapp3.1\Destructor.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Destructor\Destructor\bin\Debug\netcoreapp3.1\Destructor.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Destructor\Destructor\bin\Debug\netcoreapp3.1\Destructor.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Destructor\Destructor\obj\Debug\netcoreapp3.1\Destructor.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Destructor\Destructor\obj\Debug\netcoreapp3.1\Destructor.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Destructor\Destructor\obj\Debug\netcoreapp3.1\Destructor.genruntimeconfig.cache

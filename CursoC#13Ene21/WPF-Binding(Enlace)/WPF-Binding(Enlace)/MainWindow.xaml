@@ -1,0 +1,31 @@
+﻿<Window x:Class="WPF_Binding_Enlace_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Binding_Enlace_"
+        mc:Ignorable="d"
+        Title="Binding" Height="450" Width="800">
+    <StackPanel>
+        <!--Mode=OneWay Desde el source q es Slider a target q es Text--> 
+        <!--<TextBox Width="100" Name="Cuadro" Margin="160" Text="{Binding ElementName=Slider,
+            Path=Value,Mode=OneWay}"></TextBox>-->
+        
+        <!--con TABULADOR Mode=Mode=OneWayToSource Desde el source q es Text a target q es Slider -->
+        <!--<TextBox Width="100" Name="Cuadro" Margin="160" Text="{Binding ElementName=Slider,
+            Path=Value,Mode=OneWayToSource}"></TextBox>-->
+
+        <!--con TABULADOR Mode=Mode=TwoWay Desde el source q es Text/Slider a target q es Slider/Text -->
+        <!--<TextBox Width="100" Name="Cuadro" Margin="160" Text="{Binding ElementName=Slider,
+            Path=Value,Mode=TwoWay}"></TextBox>-->
+
+        <!--con TABULADOR Mode=OneTime Desde el source q es Text/Slider a target q es Slider/Text -->
+        <!--Según Value="25" del Slider-->
+        <TextBox Width="100" Name="Cuadro" Margin="160" Text="{Binding ElementName=Slider,
+            Path=Value,Mode=OneTime}"></TextBox>
+
+        <!--Slider-->
+        <Slider Width="350" Name="Slider" Minimum="0" Maximum="100" Value="25"></Slider>
+        
+    </StackPanel>
+</Window>

@@ -1,0 +1,13 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VehiculoHerenciaVirtual\VehiculoHerenciaVirtual\obj\Debug\netcoreapp3.1\VehiculoHerenciaVirtual.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VehiculoHerenciaVirtual\VehiculoHerenciaVirtual\obj\Debug\netcoreapp3.1\VehiculoHerenciaVirtual.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VehiculoHerenciaVirtual\VehiculoHerenciaVirtual\obj\Debug\netcoreapp3.1\VehiculoHerenciaVirtual.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VehiculoHerenciaVirtual\VehiculoHerenciaVirtual\obj\Debug\netcoreapp3.1\VehiculoHerenciaVirtual.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VehiculoHerenciaVirtual\VehiculoHerenciaVirtual\bin\Debug\netcoreapp3.1\VehiculoHerenciaVirtual.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VehiculoHerenciaVirtual\VehiculoHerenciaVirtual\bin\Debug\netcoreapp3.1\VehiculoHerenciaVirtual.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VehiculoHerenciaVirtual\VehiculoHerenciaVirtual\bin\Debug\netcoreapp3.1\VehiculoHerenciaVirtual.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VehiculoHerenciaVirtual\VehiculoHerenciaVirtual\bin\Debug\netcoreapp3.1\VehiculoHerenciaVirtual.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VehiculoHerenciaVirtual\VehiculoHerenciaVirtual\bin\Debug\netcoreapp3.1\VehiculoHerenciaVirtual.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VehiculoHerenciaVirtual\VehiculoHerenciaVirtual\bin\Debug\netcoreapp3.1\VehiculoHerenciaVirtual.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VehiculoHerenciaVirtual\VehiculoHerenciaVirtual\obj\Debug\netcoreapp3.1\VehiculoHerenciaVirtual.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VehiculoHerenciaVirtual\VehiculoHerenciaVirtual\obj\Debug\netcoreapp3.1\VehiculoHerenciaVirtual.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VehiculoHerenciaVirtual\VehiculoHerenciaVirtual\obj\Debug\netcoreapp3.1\VehiculoHerenciaVirtual.genruntimeconfig.cache

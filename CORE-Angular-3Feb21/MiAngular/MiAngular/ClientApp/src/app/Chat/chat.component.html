@@ -1,0 +1,46 @@
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>-->
+<div>
+  HOLA {{nombre}}
+  HOLA {{nombre}}
+
+  HOLA {{nombre}}
+</div>
+<input type="button" (click)="CambiaNombre()" value="Cambia el nombre A ::" />
+<!--Mostrar lista elementos con DIRECTIVA *ngFor      -->
+<!--<div *ngFor="let e of ListaMsg">
+  {{ e }}
+</div>-->
+<!--Llamar componente message con DIRECTIVA FOR con texto-->
+<!--<app-message *ngFor="let e of ListaMsg" texto="e"></app-message>-->
+<!--Llamar componente message con DIRECTIVA FOR con variablles-->
+<!--<app-message *ngFor="let e of ListaMsg" [texto]="e"></app-message>-->
+<!--cambia xxxxxxx-->
+<!--Llamar componente message con DIRECTIVA FOR con texto-->
+<!--alt 124-->
+ <!--ReactiveFormsModule *Can't bind to 'formControl' since it isn't a known property of 'input'-->
+
+<input type="text" [formControl]="nameControl" />
+<input #text type="text" [formControl]="textControl" />  
+
+<input type="button" (click)="Send()" value="ENVIAR!!! " />
+
+
+<app-message *ngFor="let e of lstMsg | async " [oMessage]="e"></app-message>
+
+<b> {{ chatService.algo }} </b>
+<br>
+<b>
+  <span *ngFor="let e of Lista">
+    La Lista es: {{ e }}
+  </span>
+</b>
+

@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "Li6maVvP7TDootjASbjya21fp7+clzRb3hwfnc0XjZgK4U9WAF36czmG0TEky8kPL0bwRgOHyEyIRv3Y+yrVBg==",
+  "success": true,
+  "projectFilePath": "D:\\GECS-DEV\\C#\\BaseDatos\\BaseDatos\\BaseDatos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gloria Erma\\.nuget\\packages\\oracle.manageddataaccess\\19.10.0\\oracle.manageddataaccess.19.10.0.nupkg.sha512",
+    "C:\\Users\\Gloria Erma\\.nuget\\packages\\oracle.manageddataaccess.core\\2.19.100\\oracle.manageddataaccess.core.2.19.100.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"Oracle.ManagedDataAccess 19.10.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "Oracle.ManagedDataAccess",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

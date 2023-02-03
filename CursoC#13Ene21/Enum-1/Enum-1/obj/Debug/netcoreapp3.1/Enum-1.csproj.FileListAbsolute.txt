@@ -1,0 +1,12 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Enum-1\Enum-1\bin\Debug\netcoreapp3.1\Enum-1.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Enum-1\Enum-1\bin\Debug\netcoreapp3.1\Enum-1.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Enum-1\Enum-1\bin\Debug\netcoreapp3.1\Enum-1.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Enum-1\Enum-1\bin\Debug\netcoreapp3.1\Enum-1.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Enum-1\Enum-1\bin\Debug\netcoreapp3.1\Enum-1.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Enum-1\Enum-1\bin\Debug\netcoreapp3.1\Enum-1.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Enum-1\Enum-1\obj\Debug\netcoreapp3.1\Enum-1.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Enum-1\Enum-1\obj\Debug\netcoreapp3.1\Enum-1.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Enum-1\Enum-1\obj\Debug\netcoreapp3.1\Enum-1.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Enum-1\Enum-1\obj\Debug\netcoreapp3.1\Enum-1.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Enum-1\Enum-1\obj\Debug\netcoreapp3.1\Enum-1.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Enum-1\Enum-1\obj\Debug\netcoreapp3.1\Enum-1.genruntimeconfig.cache

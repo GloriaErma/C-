@@ -1,0 +1,13 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Herencia\Herencia\bin\Debug\netcoreapp3.1\Herencia.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Herencia\Herencia\bin\Debug\netcoreapp3.1\Herencia.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Herencia\Herencia\bin\Debug\netcoreapp3.1\Herencia.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Herencia\Herencia\bin\Debug\netcoreapp3.1\Herencia.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Herencia\Herencia\bin\Debug\netcoreapp3.1\Herencia.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Herencia\Herencia\bin\Debug\netcoreapp3.1\Herencia.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Herencia\Herencia\obj\Debug\netcoreapp3.1\Herencia.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Herencia\Herencia\obj\Debug\netcoreapp3.1\Herencia.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Herencia\Herencia\obj\Debug\netcoreapp3.1\Herencia.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Herencia\Herencia\obj\Debug\netcoreapp3.1\Herencia.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Herencia\Herencia\obj\Debug\netcoreapp3.1\Herencia.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Herencia\Herencia\obj\Debug\netcoreapp3.1\Herencia.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Herencia\Herencia\obj\Debug\netcoreapp3.1\Herencia.genruntimeconfig.cache

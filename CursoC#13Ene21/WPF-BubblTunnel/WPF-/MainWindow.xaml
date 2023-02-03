@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPF_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <!--<StackPanel Name="StackPanel" ButtonBase.Click="StackPanel_Click" >-->
+    <StackPanel Name="StackPanel" PreviewMouseLeftButtonDown="StackPanel_PreviewMouseLeftButtonDown">
+        <Button Content="DALE 0" Margin="15" Width="150" HorizontalAlignment="Left" />
+        <Button Content="DALE 1" Margin="15" Width="150"/>
+        <Button Content="DALE 2" Margin="15" Width="150" HorizontalAlignment="Left" />
+        <Button Content="DALE 3" Margin="15" Width="150" HorizontalAlignment="Right" />
+        <Button Content="DALE click" Margin="15" Width="150" Click="Button_Click"/>
+        <Button Content="DALE 5" Margin="15" Width="150" HorizontalAlignment="Center" />
+
+    </StackPanel>
+</Window>

@@ -1,0 +1,13 @@
+D:\ProyectoBDprueba\CursoC#13Ene21\Metodo\Metodo\bin\Debug\netcoreapp3.1\Metodo.exe
+D:\ProyectoBDprueba\CursoC#13Ene21\Metodo\Metodo\bin\Debug\netcoreapp3.1\Metodo.deps.json
+D:\ProyectoBDprueba\CursoC#13Ene21\Metodo\Metodo\bin\Debug\netcoreapp3.1\Metodo.runtimeconfig.json
+D:\ProyectoBDprueba\CursoC#13Ene21\Metodo\Metodo\bin\Debug\netcoreapp3.1\Metodo.runtimeconfig.dev.json
+D:\ProyectoBDprueba\CursoC#13Ene21\Metodo\Metodo\bin\Debug\netcoreapp3.1\Metodo.dll
+D:\ProyectoBDprueba\CursoC#13Ene21\Metodo\Metodo\bin\Debug\netcoreapp3.1\Metodo.pdb
+D:\ProyectoBDprueba\CursoC#13Ene21\Metodo\Metodo\obj\Debug\netcoreapp3.1\Metodo.csprojAssemblyReference.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\Metodo\Metodo\obj\Debug\netcoreapp3.1\Metodo.AssemblyInfoInputs.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\Metodo\Metodo\obj\Debug\netcoreapp3.1\Metodo.AssemblyInfo.cs
+D:\ProyectoBDprueba\CursoC#13Ene21\Metodo\Metodo\obj\Debug\netcoreapp3.1\Metodo.csproj.CoreCompileInputs.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\Metodo\Metodo\obj\Debug\netcoreapp3.1\Metodo.dll
+D:\ProyectoBDprueba\CursoC#13Ene21\Metodo\Metodo\obj\Debug\netcoreapp3.1\Metodo.pdb
+D:\ProyectoBDprueba\CursoC#13Ene21\Metodo\Metodo\obj\Debug\netcoreapp3.1\Metodo.genruntimeconfig.cache

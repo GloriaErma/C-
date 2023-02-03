@@ -1,0 +1,13 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Linked_List\Linked_List\bin\Debug\netcoreapp3.1\Linked_List.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Linked_List\Linked_List\bin\Debug\netcoreapp3.1\Linked_List.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Linked_List\Linked_List\bin\Debug\netcoreapp3.1\Linked_List.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Linked_List\Linked_List\bin\Debug\netcoreapp3.1\Linked_List.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Linked_List\Linked_List\bin\Debug\netcoreapp3.1\Linked_List.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Linked_List\Linked_List\bin\Debug\netcoreapp3.1\Linked_List.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Linked_List\Linked_List\obj\Debug\netcoreapp3.1\Linked_List.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Linked_List\Linked_List\obj\Debug\netcoreapp3.1\Linked_List.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Linked_List\Linked_List\obj\Debug\netcoreapp3.1\Linked_List.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Linked_List\Linked_List\obj\Debug\netcoreapp3.1\Linked_List.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Linked_List\Linked_List\obj\Debug\netcoreapp3.1\Linked_List.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Linked_List\Linked_List\obj\Debug\netcoreapp3.1\Linked_List.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Linked_List\Linked_List\obj\Debug\netcoreapp3.1\Linked_List.genruntimeconfig.cache

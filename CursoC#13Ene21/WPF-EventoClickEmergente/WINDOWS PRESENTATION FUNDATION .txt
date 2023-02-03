@@ -1,0 +1,267 @@
+
+WINDOWS PRESENTATION FUNDATION -- Video 72
+============================================
+.NET CORE
+==========
+
+API -- INTERFAZ GRAFICA  XAML, parecido HTML.
+=====
+> Iniciar: ejecuta windows.
+================================================
+
+XAML...
+<Window x:Class="WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        
+    </Grid>
+</Window>
+MainWindow  === INTERFAZ, EN PIXELES
+
+Ver: Cuadro Herramientas.
+TextBox
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="311,228,0,0" TextWrapping="Wrap" Text="X fin GECS
+                 " VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+
+****************************************************************
+TRABAJO VISTA DISEÑO: PANEL PROPIEDADES en ExploraSoluciones.
+		Incluir botón sencillo.		
+TRABAJO XAML: Panel XAML.
+TRABAJO C#:  Archivo en C#. D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF\WPF\MainWindow.xaml.cs
+****************************************************************
+PANEL PROPIEDADES: content y Width y Height
+flechas para invertir panel y AXML
+
+<Grid>
+	<Button Content="ENVIAR" Width="150" Height="90" FontSize="24"></Button>
+	=== <Button Content="ENVIAR" Width="150" Height="90" FontSize="24"/>
+</Grid>
+<Grid>
+        <Button Content="ENVIAR" Width="550" Height="90" FontSize="24" Margin="172,70,170,259"></Button>
+        <Button>
+            <Button.Width>100</Button.Width>
+            <Button.Height>100</Button.Height>
+            <Button.Content>
+                <WrapPanel>
+                    <TextBlock Foreground="Red">Hola</TextBlock>
+                    <TextBlock Foreground="Yellow">Click</TextBlock>
+                    <TextBlock Foreground="Blue">Enviarlo</TextBlock>
+
+                </WrapPanel>
+            </Button.Content>
+        </Button>
+</Grid>
+
+**********************************
+<!--<Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="ENVIAR" HorizontalAlignment="Left" Margin="430,167,0,0" VerticalAlignment="Top" Width="175" Height="50" HorizontalContentAlignment="Center" Click="Button_Click"/>
+
+    </Grid>-->
+
+    <Grid>
+        <!--<Button Content="ENVIAR" Width="550" FontSize="24" Margin="95,5,247,379"/>-->
+        <Button RenderTransformOrigin="-0.46,-0.35" Margin="100,50,652,319">
+            <WrapPanel>
+                <TextBlock Foreground="Red"><Run Text="Hola"/></TextBlock>
+                <TextBlock Foreground="Yellow"><Run Text="Click"/></TextBlock>
+                <TextBlock Foreground="Blue"><Run Text="Enviarlo"/></TextBlock>
+
+            </WrapPanel>
+        </Button>
+    </Grid>
+***********************************
+
+<Button Content="DALE" Margin="15" />     X todos los lados.
+
+<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="WPF.MainWindow"
+        mc:Ignorable="d"
+        Title="INTERFAZ" Height="450" Width="900">
+    
+    <StackPanel>
+        <Button Content="DALE 0" Margin="15" Width="150" HorizontalAlignment="Left" />
+        <Button Content="DALE 1" Margin="15" Width="150"/>
+        <Button Content="DALE 2" Margin="15" Width="150" HorizontalAlignment="Left" />
+        <Button Content="DALE 3" Margin="15" Width="150" HorizontalAlignment="Right" />
+        <Button Content="DALE click" Margin="15" Width="150" Click="Button_Click"/>
+        <Button Content="DALE 5" Margin="15" Width="150" HorizontalAlignment="Center" />
+
+    </StackPanel>
+
+</Window>
+<!--<Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="ENVIAR" HorizontalAlignment="Left" Margin="430,167,0,0" VerticalAlignment="Top" Width="175" Height="50" HorizontalContentAlignment="Center" Click="Button_Click"/>
+
+    </Grid>-->
+
+<!--<Grid>
+    --><!--<Button Content="ENVIAR" Width="550" FontSize="24" Margin="95,5,247,379"/>--><!--
+    <Button RenderTransformOrigin="-0.46,-0.35" Margin="100,50,652,319">
+        <WrapPanel>
+            <TextBlock Foreground="Red"><Run Text="Hola"/></TextBlock>
+            <TextBlock Foreground="Yellow"><Run Text="Click"/></TextBlock>
+            <TextBlock Foreground="Blue"><Run Text="Enviarlo"
+        </WrapPanel>/></TextBlock>
+
+    </Button>
+</Grid>-->
+
+
+***********************************
+EVENTOS BUBBLING
+ PROPAGACIÓN HACIA ARRIBA.
+	Window           <
+	 Stack           !  evento click
+	  Boton		 !  evento click		
+	   Texto Boton   !
+
+EVENTOS TUNNELING
+ PROPAGACIÓN HACIA ABAJO.
+	Window           !
+	 Stack           !  evento click
+	  Boton		 !  evento click		
+	   Texto Boton   >
+
+EVENTOS DIRECTO
+ SIN PROPAGACIÓN 
+	Window           
+	 Stack           X  evento click
+	  Boton		 X  evento click		
+	   Texto Boton  
+***************************************
+	Tiene evento el Boton "DALE click" 
+	Crear evento para el StackPanel, 
+ 1.EVENTO BUBBLING HACIA ARRIBA ***Boton "DALE click"
+
+ 2.EVENTO BUBBLING,PANEL HACIA ARRIBA
+  <StackPanel Name="StackPanel" ButtonBase.Click="StackPanel_Click" >
+
+***************************************
+	CREAR EVENTO TUNNELING
+	Preview hacia abajo
+  <StackPanel Name="StackPanel" PreviewMouseLeftButtonDown="StackPanel_PreviewMouseLeftButtonDown">
+
+***************************************************************
+	GRID
+  Dividir columnas y filas.
+  Con diferents valores de tamaño.
+  	Absoluto:  vr. pixeles.
+	Automático: 	vr. elemento interior.
+	Proporcional:	vr. disponible proporcional.
+
+  (columna,fila)
+	0,0     1,0
+	0,1	1,1
+
+  <ColumnDefinition Width="375"></ColumnDefinition>
+  <Button Grid.Column="1">Botón 2: 375 pix</Button>
+
+  solo Columnas valores proporcionales "*"-->
+  solo Columnas valores automático "auto"-->
+
+      <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="15"></ColumnDefinition>
+            <ColumnDefinition Width="auto"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="0">Botón 0: proporcional</Button>
+        <Button Grid.Column="1">Botón 1: 75 pix</Button>
+        <Button Grid.Column="2">Botón 2: auto</Button>
+        <Button Grid.Column="3">Botón 3: multiplicador</Button>
+        
+    </Grid>
+
+   <!--SI NO especifica fila    es fila 1 -->
+   <!--SI NO especifica columna es fila 1 -->
+  ***************************************************************************
+	Dependency Properties --- Windows Presentacion Fundation
+	Interfaz Objetos, tiene propiedades.
+  
+  control WPF tienen propiedades.
+  
+  Sistema de Dependencia, para establecer otros parámetros. Según sistema Operativo.
+  
+			
+  Dependency Property propias-.
+
+************************************************************
+  Data Binding: Puente o enlace de datos.
+		Enviar o Recibir información.
+		Bd, Objetos, Control WPF.
+
+	Tipos: OneWay, OneWayTOSource, twoWays. OneTime.
+
+*************************************************************
+	-- INTERFAZ
+ Reunir eventos que puede desencadenar objeto en uno solo, 
+ sin necesidad de crear método específico para cada propiedad.
+  
+  	Objeto: propiedad: Text, Background, Color, Border.
+ BUSQUEDA: INotifyPropertyChanged...
+ *************************************************************
+
+ ListBox Video 81  - INTERFAZ grafica - Lista desplegada
+=================
+	Contenedor principal -- la windows
+ 2 zonas:
+	1- Zona Superior: list_box.(4 elementos)
+    población..temperatura  población..temperatura 
+	2- Zona Inferior: botón, eventos.
+ Al pulsar elemento desancadene un evento.
+**************************************************************
+ ComboBox Video 82  - Menu desplegable, pulsar flecha despliegue
+==================
+ 
+ CheckBox. Casillas Verificación.Activar varioa a la vez.
+==========
+  2 zonas:	
+	1- Zona Izquierda: ComboBox
+
+  <!-- columna Izq comboBox-->
+        <StackPanel>
+            <ComboBox Name="Poblacion">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding NombrePoblacion}" FontSize="16"></TextBlock>
+                        </StackPanel>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </StackPanel>
+
+	2- Zona Derecha:   CheckBox 	
+ ***************************************************************
+ RAdioButton.  Video 86
+========================
+  3 zonas:	
+	1- Zona Superior, Titulo
+	2- Zona Izquierda, 3 RadioButton
+	3- Zona Derecha.   Imagen: Semaforo.
+******************************************************************
+ WPF BBDD-   Video 88
+ =====================
+  Server Name:     DESKTOP-MRNH4V2
+
+
+  
+  

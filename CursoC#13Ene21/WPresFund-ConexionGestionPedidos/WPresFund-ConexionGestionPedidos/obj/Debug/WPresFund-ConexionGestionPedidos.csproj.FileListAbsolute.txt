@@ -1,0 +1,17 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\bin\Debug\WPresFund-ConexionGestionPedidos.exe.config
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\bin\Debug\WPresFund-ConexionGestionPedidos.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\bin\Debug\WPresFund-ConexionGestionPedidos.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\obj\Debug\WPresFund-ConexionGestionPedidos.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\obj\Debug\MainWindow.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\obj\Debug\App.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\obj\Debug\WPresFund-ConexionGestionPedidos_MarkupCompile.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\obj\Debug\WPresFund-ConexionGestionPedidos_MarkupCompile.lref
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\obj\Debug\MainWindow.baml
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\obj\Debug\WPresFund-ConexionGestionPedidos.g.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\obj\Debug\WPresFund_ConexionGestionPedidos.Properties.Resources.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\obj\Debug\WPresFund-ConexionGestionPedidos.csproj.GenerateResource.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\obj\Debug\WPresFund-ConexionGestionPedidos.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\obj\Debug\WPresFund-ConexionGestionPedidos.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\obj\Debug\WPresFund-ConexionGestionPedidos.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\obj\Debug\Actualizar.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFund-ConexionGestionPedidos\WPresFund-ConexionGestionPedidos\obj\Debug\Actualizar.baml

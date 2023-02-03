@@ -1,0 +1,14 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-Binding(Enlace)\WPF-Binding(Enlace)\bin\Debug\WPF-Binding(Enlace).exe.config
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-Binding(Enlace)\WPF-Binding(Enlace)\bin\Debug\WPF-Binding(Enlace).exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-Binding(Enlace)\WPF-Binding(Enlace)\bin\Debug\WPF-Binding(Enlace).pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-Binding(Enlace)\WPF-Binding(Enlace)\obj\Debug\MainWindow.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-Binding(Enlace)\WPF-Binding(Enlace)\obj\Debug\App.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-Binding(Enlace)\WPF-Binding(Enlace)\obj\Debug\WPF-Binding(Enlace)_MarkupCompile.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-Binding(Enlace)\WPF-Binding(Enlace)\obj\Debug\WPF-Binding(Enlace)_MarkupCompile.lref
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-Binding(Enlace)\WPF-Binding(Enlace)\obj\Debug\MainWindow.baml
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-Binding(Enlace)\WPF-Binding(Enlace)\obj\Debug\WPF-Binding(Enlace).g.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-Binding(Enlace)\WPF-Binding(Enlace)\obj\Debug\WPF_Binding_Enlace_.Properties.Resources.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-Binding(Enlace)\WPF-Binding(Enlace)\obj\Debug\WPF-Binding(Enlace).csproj.GenerateResource.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-Binding(Enlace)\WPF-Binding(Enlace)\obj\Debug\WPF-Binding(Enlace).csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-Binding(Enlace)\WPF-Binding(Enlace)\obj\Debug\WPF-Binding(Enlace).exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-Binding(Enlace)\WPF-Binding(Enlace)\obj\Debug\WPF-Binding(Enlace).pdb

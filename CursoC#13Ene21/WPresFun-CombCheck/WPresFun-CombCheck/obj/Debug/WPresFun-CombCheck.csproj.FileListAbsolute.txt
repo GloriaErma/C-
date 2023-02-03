@@ -1,0 +1,15 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFun-CombCheck\WPresFun-CombCheck\bin\Debug\WPresFun-CombCheck.exe.config
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFun-CombCheck\WPresFun-CombCheck\bin\Debug\WPresFun-CombCheck.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFun-CombCheck\WPresFun-CombCheck\bin\Debug\WPresFun-CombCheck.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFun-CombCheck\WPresFun-CombCheck\obj\Debug\WPresFun-CombCheck.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFun-CombCheck\WPresFun-CombCheck\obj\Debug\MainWindow.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFun-CombCheck\WPresFun-CombCheck\obj\Debug\App.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFun-CombCheck\WPresFun-CombCheck\obj\Debug\WPresFun-CombCheck_MarkupCompile.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFun-CombCheck\WPresFun-CombCheck\obj\Debug\WPresFun-CombCheck_MarkupCompile.lref
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFun-CombCheck\WPresFun-CombCheck\obj\Debug\MainWindow.baml
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFun-CombCheck\WPresFun-CombCheck\obj\Debug\WPresFun-CombCheck.g.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFun-CombCheck\WPresFun-CombCheck\obj\Debug\WPresFun_CombCheck.Properties.Resources.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFun-CombCheck\WPresFun-CombCheck\obj\Debug\WPresFun-CombCheck.csproj.GenerateResource.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFun-CombCheck\WPresFun-CombCheck\obj\Debug\WPresFun-CombCheck.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFun-CombCheck\WPresFun-CombCheck\obj\Debug\WPresFun-CombCheck.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresFun-CombCheck\WPresFun-CombCheck\obj\Debug\WPresFun-CombCheck.pdb

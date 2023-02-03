@@ -1,0 +1,422 @@
+<div class="container body">
+  <div class="row">
+    <div class="col-md-8 mt-4 ">
+      <ul class="list-group">
+        <!--al dar click  retiene e: empleado -->
+        <!--(click)="openForEdit(e)"-->
+        <!--marque el elemento activo-->
+        <!--[class.active]="e == sel">-->
+        <li *ngFor="let e of EmplArray"
+            class="list-group-item list-group-item-action"
+            (click)="openForEdit(e)"
+            [class.active]="e == selec">
+          <span class="badge LabelNum">{{e.id}}</span>
+          {{e.title}} , {{e.descripcionT}} , {{e.createdDate| date:'dd-MM-yyyy'}} , {{e.updatedDate| date:'dd-MM-yyyy'}}
+
+          <span class="badge LabelNum">{{e.done}}</span>
+        </li>
+      </ul>
+      <div class="card mt-4">
+        <div class="card-body">
+          <div class="card-title">
+            <strong>Insert a new Record TITULOS</strong>
+          </div>
+          <!-- directiva ngModel  > -->
+          <form [formGroup]="form">
+            <div class="form-group">
+              <input type="text" placeholder="Insert a title" formControlName="title" style="margin-bottom: 10px;">
+              <span style="color:red;" *ngIf="form.controls['title'].touched && form.controls['title'].errors?.required">Title is required.</span>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Insert a descripcion" formControlName="descripcionT" style="margin-bottom: 10px;">
+              <span style="color:red;" *ngIf="form.controls['descripcionT'].touched && form.controls['descripcionT'].errors?.required">Description is required.</span>
+            </div>
+            <div class="form-group">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="checkbox" class="form-check-input" formControlName="done">
+              <label class="form-check-label" for="done">Done</label>
+            </div>
+            <!-- [readonly]="NoVerFecha"  value= toDay [placeholder]="toDay | date:'dd-MM-yyyy'"
+            [value]="'2021-03-12' | date:'dd-MM-yyyy'"  -->
+            <div class="form-group" *ngIf="this.form.controls['createdDate'].value">
+              <label> <strong>Fecha de Creación:</strong> </label>
+              <input type="datetime-local" formControlName="createdDate" [readonly]="NoVerFecha" style="margin-bottom: 10px;">
+            </div>
+            <div class="form-group">
+              <label> <strong>Fecha de Actualización: </strong> </label>
+              <input type="datetime-local" placeholder="Insert a updated date" value=toDay formControlName="updatedDate" class="form-control" style="margin-bottom: 10px;">
+
+              <span style="color:red;" *ngIf="form.controls['updatedDate'].touched && form.controls['updatedDate'].errors?.required">updatedDate is required.</span>
+            </div>
+          </form>
+          <!-- </form> -->
+          <button (click)="AddEdit()" class="btn btn-primary" [disabled]="form.invalid" style="margin: 10px;"> SAVE TITULOS</button>
+          <button *ngIf="selec.id!==0" (click)="delete()" class="btn btn-danger"> Delete</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="toolbar" role="banner">
+        <img width="55"
+             alt="Angular Logo"
+             src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<p *ngIf="!data"><em>Loading...</em></p>
+
+<div class="col">
+  <strong>Indique Código Producto </strong>
+  <app-get-demo></app-get-demo>
+</div>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="data">
+  <thead>
+    <tr>
+      <th>Codigo</th>
+      <th>Nombre</th>
+      <th>Descripcion</th>
+      <th>ValorCompra</th>
+      <th>PrecioSugerido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let e of data">
+      <td>{{ e.codigo }}</td>
+      <td>{{ e.nombre }}</td>
+      <td>{{ e.descripcion }}</td>
+      <td>{{ e.valorCompra }}</td>
+      <td>{{ e.precioSugerido  }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="/">
+    Mantenimiento de Productos
+  </a>
+  <a class="navbar-brand"> {{toDay| date:' dd-MM-yyyy T HH:mm:ss'}}     </a>
+</nav>
+
+
+
+
+
+
+
+<div class="container body">
+  <div class="row">
+    <!--col-md-8 mt-4  > -->
+    <div class="col-md-10 mx-auto">
+      <table class='table table-striped' aria-labelledby="tableLabel" *ngIf="data">
+        <thead>
+          <tr>
+            <th>Codigo</th>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+            <th>ValorCompra</th>
+            <th>PrecioSugerido</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let e of ProdArray"
+              (click)="openEditTodo(e)"
+              [class.active]="e == sel">
+            <td><span class="badge LabelNum">{{e.codigo}}</span></td>
+            <td>{{ e.nombre }}</td>
+            <td>{{ e.descripcion }}</td>
+            <td>{{ e.valorCompra }}</td>
+            <td>{{ e.precioSugerido  }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <!--card mt-4  > -->
+      <div class="card" alt="Max-width 100%">
+        <div class="card-body">
+          <div class="card-title">
+            <strong>Insert a new Record.  Codigo: </strong>
+            <hr />
+          </div>
+          <!-- directiva ngModel  >deben sumar 12 -->
+          <form [formGroup]="formT">
+            <div class="form-group row">
+
+              <div class="col-sm-4">
+                <label for="nombre">Nombre Producto(*)</label>
+                <input type="text" placeholder="Digite nombre" formControlName="nombre" style="margin-bottom: 10px;">
+                <span style="color:red;" *ngIf="formT.controls['nombre'].touched && formT.controls['nombre'].errors?.required">Title is required.</span>
+              </div>
+              <div class="col-sm-4">
+                <label for="descripcion">Descripcion Producto(*)</label>
+                <input type="text" placeholder="Digite descripcion" formControlName="descripcion" style="margin-bottom: 10px;">
+                <span style="color:red;" *ngIf="formT.controls['descripcion'].touched && formT.controls['descripcion'].errors?.required">Description is required.</span>
+              </div>
+              <div class="col-sm-4">
+                <label for="codBarras">Codigo de Barras(*)</label>
+                <input type="text" placeholder="Ingrese Código de barras" formControlName="codBarras" style="margin-bottom: 10px;">
+                <span style="color:red;" *ngIf="formT.controls['codBarras'].touched && formT.controls['codBarras'].errors?.required">Description is required.</span>
+              </div>
+            </div>
+            <!-- [readonly]="NoVerFecha"  value= toDay [placeholder]="toDay | date:'dd-MM-yyyy'"
+            [value]="'2021-03-12' | date:'dd-MM-yyyy'"  -->
+            <div class="form-group row">
+              <div class="col-sm-4">
+                <label for="cbGrupo">Grupo Producto(*)</label>
+                <select id="cbGrupo" formControlName="grupo" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.grupo.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of AGrupo" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.grupo.errors && formT.controls.grupo.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group" *ngIf="this.formT.controls['createdDate'].value">
+                  <label> <strong>Fecha de Creación:</strong> </label>
+                  <input type="datetime-local" formControlName="createdDate" [readonly]="NoVerFecha" style="margin-bottom: 10px;">
+                </div>
+                <div class="col-sm-6">
+                  <label> <strong>Fecha Actualización: </strong> </label>
+                  <input type="datetime-local" placeholder="Insert a updated date" value=toDay formControlName="updatedDate" class="form-control" style="margin-bottom: 10px; width: 165px">
+                  <span style="color:red;" *ngIf="formT.controls['updatedDate'].touched && formT.controls['updatedDate'].errors?.required">updatedDate is required.</span>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" class="form-check-input" formControlName="done">
+                <label class="form-check-label" for="done">Done</label>
+              </div>
+            </div>
+            <hr />
+            <strong>Localización</strong>
+            <div class="form-group row">
+              <div class="col-sm-3">
+                <label for="cbBodega">Bodega(*)</label>
+                <select id="cbBodega" formControlName="bodega" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.bodega.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrBodega" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.bodega.errors && formT.controls.bodega.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-3">
+                <label for="cbSeccion">Seccion(*)</label>
+                <select id="cbSeccion" formControlName="seccion" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.seccion.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrSeccion" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.seccion.errors && formT.controls.seccion.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-3">
+                <label for="cbPasillo">Pasillo(*)</label>
+                <select id="cbPasillo" formControlName="pasillo" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.pasillo.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrPasillo" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.pasillo.errors && formT.controls.pasillo.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-3">
+                <label for="cbEstante">Estante(*)</label>
+                <select id="cbEstante" formControlName="estante" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.estante.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrEstante" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.estante.errors && formT.controls.estante.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+            </div>
+            <hr />
+            <strong>Atributos Fiscales</strong>
+            <div class="form-group row">
+              <div class="col-sm-3">
+                <label for="clasIpoConsumo">Clase Ipoconsumo(*)</label>
+                <select id="clasIpoConsumo" formControlName="clIpoConsumo" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.clIpoConsumo.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrclIpoConsum" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.clIpoConsumo.errors && formT.controls.clIpoConsumo.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-3">
+                <label for="cbclIva">Clasificación Iva(*)</label>
+                <select id="cbclIva" formControlName="clIva" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.clIva.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrclIva" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.clIva.errors && formT.controls.clIva.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+            </div>
+            <hr />
+            <strong>Atributos Comerciales</strong>
+            <div class="form-group row">
+              <div class="col-sm-3">
+                <label for="cbMedida">Medida(*)</label>
+                <select id="cbMedida" formControlName="medida" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.medida.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrMedida" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.medida.errors && formT.controls.medida.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-3">
+                <label for="cbVolumen">Volumen(*)</label>
+                <select id="cbVolumen" formControlName="volumen" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.volumen.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrVolumen" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.volumen.errors && formT.controls.volumen.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-3">
+                <label class="radiolist-govco radiobutton-govco">
+                  <input type="radio" value="perenne" id="perenne" name="perennePerecedero" formControlName="perennePerecedero">
+                  <label for="perenne"> Perenne </label>
+                </label>
+                <label class="radiolist-govco radiobutton-govco">
+                  <input type="radio" value="perecedero" id="perecedero" name="perennePerecedero" formControlName="perennePerecedero">
+                  <label for="perecedero"> Perecedero (*) </label>
+                </label>
+                <div *ngIf="submitted && formT.controls.ruralUrbano.errors && formT.controls.ruralUrbano.errors.required" class="invalid-radio">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-3">
+                <label>Fecha Vencimiento: </label>
+                <input type="datetime-local" placeholder="Insert a updated date" value=toDay formControlName="fecVencto" class="form-control" style="margin-bottom: 10px; width: 165px">
+                <span style="color:red;" *ngIf="formT.controls['updatedDate'].touched && formT.controls['fecVencto'].errors?.required">fecVencto is required.</span>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-sm-3">
+                <label class="radiolist-govco radiobutton-govco">
+                  <input type="radio" value="propio" id="propio" name="invPropioConsignacion" formControlName="invPropioConsignacion">
+                  <label for="propio"> Propio </label>
+                </label>
+                <label class="radiolist-govco radiobutton-govco">
+                  <input type="radio" value="consignacion" id="consignacion" name="invPropioConsignacion" formControlName="invPropioConsignacion">
+                  <label for="perecedero"> Consignacion (*) </label>
+                </label>
+                <div *ngIf="submitted && formT.controls.invPropioConsignacion.errors && formT.controls.invPropioConsignacion.errors.required" class="invalid-radio">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-3">
+                <label for="cbEmbalaje">Embalaje(*)</label>
+                <select id="cbEmbalaje" formControlName="embalaje" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.embalaje.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrEmbalaje" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.embalaje.errors && formT.controls.embalaje.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+            </div>
+            <hr />
+            <strong>Atributos Financieros</strong>
+            <div class="form-group row">
+              <div class="col-sm-3">
+                <label for="cbDescuento">Descuento(*)</label>
+                <select id="cbDescuento" formControlName="descuento" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.descuento.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrDescuento" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.descuento.errors && formT.controls.descuento.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-3">
+                <label for="cbGarantia">Garantía(*)</label>
+                <select id="cbGarantia" formControlName="garantia" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.garantia.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrGarantia" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.garantia.errors && formT.controls.garantia.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-3">
+                <<label for="cbProveedor">Proveedor(*)</label>
+                <select id="cbProveedor" formControlName="proveedor" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.proveedor.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrProveedor" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.proveedor.errors && formT.controls.proveedor.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+            </div>
+            <hr />
+            <strong>Atributos Administrativos</strong>
+            <div class="form-group row">
+              <div class="col-sm-3">
+                <label for="cbMinimos">Mínimos(*)</label>
+                <select id="cbMinimos" formControlName="minimo" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.minimo.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrMinimo" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.minimo.errors && formT.controls.minimo.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-3">
+                <label for="cbMaximo">Máximos(*)</label>
+                <select id="cbMaximo" formControlName="maximo" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.maximo.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrMaximo" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.maximo.errors && formT.controls.maximo.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-3">
+                <label for="VrPreSugerido">PrecioSugerido(*)</label>
+                <select id="cbPreSugerido" formControlName="preSugerido" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.preSugerido.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrPreSugerido" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.preSugerido.errors && formT.controls.preSugerido.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-3">
+                <label for="cbTiempoRotac">Tiempo Rotación(*)</label>
+                <select id="cbTiempoRotac" formControlName="tiempoRotac" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.tiempoRotac.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrTiempoRotac" [value]="item.id">
+                    {{ item }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.tiempoRotac.errors && activarForm.controls.tiempoRotac.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+            </div>
+            <hr />
+
+
+
+          </form>
+          <!-- </form> -->
+          <button (click)="AddEditTodo()" class="btn btn-primary" [disabled]="formT.invalid" style="margin: 10px;"> SAVE TODO</button>
+          <button *ngIf="sel.id!==0" (click)="deleteTodo()" class="btn btn-danger"> Delete</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="toolbar" role="banner">
+        <img width="55"
+             alt="Angular Logo"
+             src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==" />
+      </div>
+    </div>
+  </div>
+</div>
+

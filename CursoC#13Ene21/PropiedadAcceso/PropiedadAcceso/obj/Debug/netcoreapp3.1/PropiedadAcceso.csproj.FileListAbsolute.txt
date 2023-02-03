@@ -1,0 +1,13 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\PropiedadAcceso\PropiedadAcceso\bin\Debug\netcoreapp3.1\PropiedadAcceso.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\PropiedadAcceso\PropiedadAcceso\bin\Debug\netcoreapp3.1\PropiedadAcceso.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\PropiedadAcceso\PropiedadAcceso\bin\Debug\netcoreapp3.1\PropiedadAcceso.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\PropiedadAcceso\PropiedadAcceso\bin\Debug\netcoreapp3.1\PropiedadAcceso.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\PropiedadAcceso\PropiedadAcceso\bin\Debug\netcoreapp3.1\PropiedadAcceso.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\PropiedadAcceso\PropiedadAcceso\bin\Debug\netcoreapp3.1\PropiedadAcceso.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\PropiedadAcceso\PropiedadAcceso\obj\Debug\netcoreapp3.1\PropiedadAcceso.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\PropiedadAcceso\PropiedadAcceso\obj\Debug\netcoreapp3.1\PropiedadAcceso.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\PropiedadAcceso\PropiedadAcceso\obj\Debug\netcoreapp3.1\PropiedadAcceso.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\PropiedadAcceso\PropiedadAcceso\obj\Debug\netcoreapp3.1\PropiedadAcceso.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\PropiedadAcceso\PropiedadAcceso\obj\Debug\netcoreapp3.1\PropiedadAcceso.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\PropiedadAcceso\PropiedadAcceso\obj\Debug\netcoreapp3.1\PropiedadAcceso.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\PropiedadAcceso\PropiedadAcceso\obj\Debug\netcoreapp3.1\PropiedadAcceso.genruntimeconfig.cache

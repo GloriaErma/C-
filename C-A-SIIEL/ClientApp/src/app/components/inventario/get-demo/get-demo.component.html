@@ -1,0 +1,32 @@
+<p>get-demo works!</p>
+
+<input type="text" #textId placeholder="number" step="1" min="0" max="100000" value="0" name="ed" required>
+<button (click)="getUser(textId.value)">Codigo Producto</button>
+<hr>
+<ng-container *ngIf="notFound">User not Found</ng-container>
+<ng-container *ngIf="codigo">
+  <div>UserId: {{codigo.codigoId}}  </div>
+  <div>Id: {{codigo.id}}  </div>
+  <div>Name: {{codigo.title }}  </div>
+  <div>Username: {{codigo.body}}  </div>
+</ng-container>
+
+<div *ngIf="notFound" [ngStyle]="{'background-color': notFound ? 'red':'green'} ">User not Found</div>
+<div *ngIf="!codigo" [ngStyle]="{'background-color': !codigo ? 'brown':'blue',
+                              'textAlign': 'right',
+                             'color': !codigo ? 'yellow': 'gray',
+                             'paddingLeft': codigo ? '0px': '20px',
+                             'paddingRight': !codigo ? '20px' :'0px',
+                             'width': '400px' ,
+                             'height' : '40px'} ">
+  NO existe por ahora!!!
+</div>
+<div *ngIf="codigo" [ngStyle]="{'background-color': !codigo ? 'green':'blue',
+                              'textAlign': 'right',
+                             'color': !codigo ? 'yellow': 'gray',
+                             'paddingLeft': !codigo ? '0px': '20px',
+                             'paddingRight': !codigo ? '20px' :'0px',
+                             'width': '450px' ,
+                             'height' : '50px'} ">
+  OK- Transacción Exitosa!!!
+</div>

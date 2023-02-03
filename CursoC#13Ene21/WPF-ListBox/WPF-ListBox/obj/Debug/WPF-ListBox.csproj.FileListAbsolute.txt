@@ -1,0 +1,15 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-ListBox\WPF-ListBox\bin\Debug\WPF-ListBox.exe.config
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-ListBox\WPF-ListBox\bin\Debug\WPF-ListBox.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-ListBox\WPF-ListBox\bin\Debug\WPF-ListBox.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-ListBox\WPF-ListBox\obj\Debug\WPF-ListBox.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-ListBox\WPF-ListBox\obj\Debug\MainWindow.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-ListBox\WPF-ListBox\obj\Debug\App.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-ListBox\WPF-ListBox\obj\Debug\WPF-ListBox_MarkupCompile.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-ListBox\WPF-ListBox\obj\Debug\WPF-ListBox_MarkupCompile.lref
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-ListBox\WPF-ListBox\obj\Debug\MainWindow.baml
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-ListBox\WPF-ListBox\obj\Debug\WPF-ListBox.g.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-ListBox\WPF-ListBox\obj\Debug\WPF_ListBox.Properties.Resources.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-ListBox\WPF-ListBox\obj\Debug\WPF-ListBox.csproj.GenerateResource.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-ListBox\WPF-ListBox\obj\Debug\WPF-ListBox.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-ListBox\WPF-ListBox\obj\Debug\WPF-ListBox.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-ListBox\WPF-ListBox\obj\Debug\WPF-ListBox.pdb

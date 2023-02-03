@@ -1,0 +1,14 @@
+<body>
+  <b>{{ oMessage.id }}. </b>
+  {{ oMessage.name }}:
+  {{ oMessage.text }}
+
+
+  <app-msg *ngFor=" let e of Lista" [entrada]="e">
+  </app-msg>
+  <app-msg *ngFor=" let e of Lista" entrada="e">
+  </app-msg>
+
+</body>
+
+

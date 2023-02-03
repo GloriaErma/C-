@@ -1,0 +1,13 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Util-LINQ\Util-LINQ\bin\Debug\netcoreapp3.1\Util-LINQ.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Util-LINQ\Util-LINQ\bin\Debug\netcoreapp3.1\Util-LINQ.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Util-LINQ\Util-LINQ\bin\Debug\netcoreapp3.1\Util-LINQ.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Util-LINQ\Util-LINQ\bin\Debug\netcoreapp3.1\Util-LINQ.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Util-LINQ\Util-LINQ\bin\Debug\netcoreapp3.1\Util-LINQ.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Util-LINQ\Util-LINQ\bin\Debug\netcoreapp3.1\Util-LINQ.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Util-LINQ\Util-LINQ\obj\Debug\netcoreapp3.1\Util-LINQ.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Util-LINQ\Util-LINQ\obj\Debug\netcoreapp3.1\Util-LINQ.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Util-LINQ\Util-LINQ\obj\Debug\netcoreapp3.1\Util-LINQ.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Util-LINQ\Util-LINQ\obj\Debug\netcoreapp3.1\Util-LINQ.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Util-LINQ\Util-LINQ\obj\Debug\netcoreapp3.1\Util-LINQ.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Util-LINQ\Util-LINQ\obj\Debug\netcoreapp3.1\Util-LINQ.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Util-LINQ\Util-LINQ\obj\Debug\netcoreapp3.1\Util-LINQ.genruntimeconfig.cache

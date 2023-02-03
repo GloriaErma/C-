@@ -1,0 +1,12 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Stack_Dictionary\Stack_Dictionary\bin\Debug\netcoreapp3.1\Stack_Dictionary.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Stack_Dictionary\Stack_Dictionary\bin\Debug\netcoreapp3.1\Stack_Dictionary.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Stack_Dictionary\Stack_Dictionary\bin\Debug\netcoreapp3.1\Stack_Dictionary.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Stack_Dictionary\Stack_Dictionary\bin\Debug\netcoreapp3.1\Stack_Dictionary.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Stack_Dictionary\Stack_Dictionary\bin\Debug\netcoreapp3.1\Stack_Dictionary.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Stack_Dictionary\Stack_Dictionary\bin\Debug\netcoreapp3.1\Stack_Dictionary.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Stack_Dictionary\Stack_Dictionary\obj\Debug\netcoreapp3.1\Stack_Dictionary.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Stack_Dictionary\Stack_Dictionary\obj\Debug\netcoreapp3.1\Stack_Dictionary.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Stack_Dictionary\Stack_Dictionary\obj\Debug\netcoreapp3.1\Stack_Dictionary.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Stack_Dictionary\Stack_Dictionary\obj\Debug\netcoreapp3.1\Stack_Dictionary.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Stack_Dictionary\Stack_Dictionary\obj\Debug\netcoreapp3.1\Stack_Dictionary.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Stack_Dictionary\Stack_Dictionary\obj\Debug\netcoreapp3.1\Stack_Dictionary.genruntimeconfig.cache

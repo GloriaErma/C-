@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ExpRegular/1.0.0": {
+        "runtime": {
+          "ExpRegular.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ExpRegular/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,13 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\ExpRegular\ExpRegular\bin\Debug\netcoreapp3.1\ExpRegular.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\ExpRegular\ExpRegular\bin\Debug\netcoreapp3.1\ExpRegular.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\ExpRegular\ExpRegular\bin\Debug\netcoreapp3.1\ExpRegular.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\ExpRegular\ExpRegular\bin\Debug\netcoreapp3.1\ExpRegular.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\ExpRegular\ExpRegular\bin\Debug\netcoreapp3.1\ExpRegular.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\ExpRegular\ExpRegular\bin\Debug\netcoreapp3.1\ExpRegular.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\ExpRegular\ExpRegular\obj\Debug\netcoreapp3.1\ExpRegular.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\ExpRegular\ExpRegular\obj\Debug\netcoreapp3.1\ExpRegular.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\ExpRegular\ExpRegular\obj\Debug\netcoreapp3.1\ExpRegular.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\ExpRegular\ExpRegular\obj\Debug\netcoreapp3.1\ExpRegular.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\ExpRegular\ExpRegular\obj\Debug\netcoreapp3.1\ExpRegular.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\ExpRegular\ExpRegular\obj\Debug\netcoreapp3.1\ExpRegular.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\ExpRegular\ExpRegular\obj\Debug\netcoreapp3.1\ExpRegular.genruntimeconfig.cache

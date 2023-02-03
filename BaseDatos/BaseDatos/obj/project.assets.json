@@ -1,0 +1,163 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Oracle.ManagedDataAccess/19.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Oracle.ManagedDataAccess.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Oracle.ManagedDataAccess.dll": {}
+        }
+      },
+      "Oracle.ManagedDataAccess.Core/2.19.100": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Oracle.ManagedDataAccess.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Oracle.ManagedDataAccess.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Oracle.ManagedDataAccess/19.10.0": {
+      "sha512": "3ORVOcyE3pbnZgOlNY9FhrHkiN2BFmFqXsD8N3ynw9KOI8UoCeTp0ScBFNA5UIv37qae2Guvq0MBD6h9OnYNWg==",
+      "type": "package",
+      "path": "oracle.manageddataaccess/19.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PerfCounters/register_odpm_perfmon_counters.ps1",
+        "PerfCounters/unregister_odpm_perfmon_counters.ps1",
+        "bin/x64/Oracle.ManagedDataAccessIOP.dll",
+        "bin/x86/Oracle.ManagedDataAccessIOP.dll",
+        "content/net40/App.config.install.xdt",
+        "content/net40/App.config.transform",
+        "content/net40/App.config.uninstall.xdt",
+        "content/net40/Web.config.install.xdt",
+        "content/net40/Web.config.transform",
+        "content/net40/Web.config.uninstall.xdt",
+        "info.txt",
+        "lib/net40/Oracle.ManagedDataAccess.dll",
+        "oracle.manageddataaccess.19.10.0.nupkg.sha512",
+        "oracle.manageddataaccess.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Oracle.ManagedDataAccess.Core/2.19.100": {
+      "sha512": "ISGSsundxgtb+Wff68QOFjrWuOomaFOZucXtQUblF84ITqZRJY+VePXhcSbHWNnDWDeHX2reG1xjHwoh1o23gg==",
+      "type": "package",
+      "path": "oracle.manageddataaccess.core/2.19.100",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PerfCounters/register_odpc_perfmon_counters.ps1",
+        "PerfCounters/unregister_odpc_perfmon_counters.ps1",
+        "info.txt",
+        "lib/netstandard2.0/Oracle.ManagedDataAccess.dll",
+        "oracle.manageddataaccess.core.2.19.100.nupkg.sha512",
+        "oracle.manageddataaccess.core.nuspec",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "Oracle.ManagedDataAccess >= 19.10.0",
+      "Oracle.ManagedDataAccess.Core >= 2.19.100"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Gloria Erma\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\GECS-DEV\\C#\\BaseDatos\\BaseDatos\\BaseDatos.csproj",
+      "projectName": "BaseDatos",
+      "projectPath": "D:\\GECS-DEV\\C#\\BaseDatos\\BaseDatos\\BaseDatos.csproj",
+      "packagesPath": "C:\\Users\\Gloria Erma\\.nuget\\packages\\",
+      "outputPath": "D:\\GECS-DEV\\C#\\BaseDatos\\BaseDatos\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Gloria Erma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Oracle.ManagedDataAccess": {
+            "target": "Package",
+            "version": "[19.10.0, )"
+          },
+          "Oracle.ManagedDataAccess.Core": {
+            "target": "Package",
+            "version": "[2.19.100, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"Oracle.ManagedDataAccess 19.10.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "Oracle.ManagedDataAccess",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

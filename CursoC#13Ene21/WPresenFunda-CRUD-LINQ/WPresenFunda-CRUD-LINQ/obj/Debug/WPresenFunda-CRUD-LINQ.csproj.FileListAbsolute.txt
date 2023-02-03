@@ -1,0 +1,15 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresenFunda-CRUD-LINQ\WPresenFunda-CRUD-LINQ\bin\Debug\WPresenFunda-CRUD-LINQ.exe.config
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresenFunda-CRUD-LINQ\WPresenFunda-CRUD-LINQ\bin\Debug\WPresenFunda-CRUD-LINQ.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresenFunda-CRUD-LINQ\WPresenFunda-CRUD-LINQ\bin\Debug\WPresenFunda-CRUD-LINQ.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresenFunda-CRUD-LINQ\WPresenFunda-CRUD-LINQ\obj\Debug\WPresenFunda-CRUD-LINQ.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresenFunda-CRUD-LINQ\WPresenFunda-CRUD-LINQ\obj\Debug\MainWindow.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresenFunda-CRUD-LINQ\WPresenFunda-CRUD-LINQ\obj\Debug\App.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresenFunda-CRUD-LINQ\WPresenFunda-CRUD-LINQ\obj\Debug\WPresenFunda-CRUD-LINQ_MarkupCompile.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresenFunda-CRUD-LINQ\WPresenFunda-CRUD-LINQ\obj\Debug\WPresenFunda-CRUD-LINQ_MarkupCompile.lref
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresenFunda-CRUD-LINQ\WPresenFunda-CRUD-LINQ\obj\Debug\MainWindow.baml
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresenFunda-CRUD-LINQ\WPresenFunda-CRUD-LINQ\obj\Debug\WPresenFunda-CRUD-LINQ.g.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresenFunda-CRUD-LINQ\WPresenFunda-CRUD-LINQ\obj\Debug\WPresenFunda_CRUD_LINQ.Properties.Resources.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresenFunda-CRUD-LINQ\WPresenFunda-CRUD-LINQ\obj\Debug\WPresenFunda-CRUD-LINQ.csproj.GenerateResource.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresenFunda-CRUD-LINQ\WPresenFunda-CRUD-LINQ\obj\Debug\WPresenFunda-CRUD-LINQ.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresenFunda-CRUD-LINQ\WPresenFunda-CRUD-LINQ\obj\Debug\WPresenFunda-CRUD-LINQ.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPresenFunda-CRUD-LINQ\WPresenFunda-CRUD-LINQ\obj\Debug\WPresenFunda-CRUD-LINQ.pdb

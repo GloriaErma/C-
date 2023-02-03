@@ -1,0 +1,13 @@
+C:\Users\Gloria Erma\source\repos\ModFicheros\ModFicheros\bin\Debug\netcoreapp3.1\ModFicheros.exe
+C:\Users\Gloria Erma\source\repos\ModFicheros\ModFicheros\bin\Debug\netcoreapp3.1\ModFicheros.deps.json
+C:\Users\Gloria Erma\source\repos\ModFicheros\ModFicheros\bin\Debug\netcoreapp3.1\ModFicheros.runtimeconfig.json
+C:\Users\Gloria Erma\source\repos\ModFicheros\ModFicheros\bin\Debug\netcoreapp3.1\ModFicheros.runtimeconfig.dev.json
+C:\Users\Gloria Erma\source\repos\ModFicheros\ModFicheros\bin\Debug\netcoreapp3.1\ModFicheros.dll
+C:\Users\Gloria Erma\source\repos\ModFicheros\ModFicheros\bin\Debug\netcoreapp3.1\ModFicheros.pdb
+C:\Users\Gloria Erma\source\repos\ModFicheros\ModFicheros\obj\Debug\netcoreapp3.1\ModFicheros.csprojAssemblyReference.cache
+C:\Users\Gloria Erma\source\repos\ModFicheros\ModFicheros\obj\Debug\netcoreapp3.1\ModFicheros.AssemblyInfoInputs.cache
+C:\Users\Gloria Erma\source\repos\ModFicheros\ModFicheros\obj\Debug\netcoreapp3.1\ModFicheros.AssemblyInfo.cs
+C:\Users\Gloria Erma\source\repos\ModFicheros\ModFicheros\obj\Debug\netcoreapp3.1\ModFicheros.csproj.CoreCompileInputs.cache
+C:\Users\Gloria Erma\source\repos\ModFicheros\ModFicheros\obj\Debug\netcoreapp3.1\ModFicheros.dll
+C:\Users\Gloria Erma\source\repos\ModFicheros\ModFicheros\obj\Debug\netcoreapp3.1\ModFicheros.pdb
+C:\Users\Gloria Erma\source\repos\ModFicheros\ModFicheros\obj\Debug\netcoreapp3.1\ModFicheros.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Arreglos-Param\Arreglos-Param\bin\Debug\netcoreapp3.1\Arreglos-Param.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Arreglos-Param\Arreglos-Param\bin\Debug\netcoreapp3.1\Arreglos-Param.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Arreglos-Param\Arreglos-Param\bin\Debug\netcoreapp3.1\Arreglos-Param.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Arreglos-Param\Arreglos-Param\bin\Debug\netcoreapp3.1\Arreglos-Param.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Arreglos-Param\Arreglos-Param\bin\Debug\netcoreapp3.1\Arreglos-Param.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Arreglos-Param\Arreglos-Param\bin\Debug\netcoreapp3.1\Arreglos-Param.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Arreglos-Param\Arreglos-Param\obj\Debug\netcoreapp3.1\Arreglos-Param.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Arreglos-Param\Arreglos-Param\obj\Debug\netcoreapp3.1\Arreglos-Param.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Arreglos-Param\Arreglos-Param\obj\Debug\netcoreapp3.1\Arreglos-Param.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Arreglos-Param\Arreglos-Param\obj\Debug\netcoreapp3.1\Arreglos-Param.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Arreglos-Param\Arreglos-Param\obj\Debug\netcoreapp3.1\Arreglos-Param.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Arreglos-Param\Arreglos-Param\obj\Debug\netcoreapp3.1\Arreglos-Param.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Arreglos-Param\Arreglos-Param\obj\Debug\netcoreapp3.1\Arreglos-Param.genruntimeconfig.cache

@@ -1,0 +1,467 @@
+<p>servicios works!</p>
+<!-- Aquí termina el código del menú -->
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-itema active "><a href="#">Panel Inventario/ </a></li>
+    <li class="breadcrumb-item " aria-current="page">Servicios</li>
+    <!-- <li class="breadcrumb-item active" aria-current="page">Sección actual</li> -->
+  </ol>
+</nav>
+<h1>Servicios</h1>
+
+<div class="container body">
+  <div class="row">
+    <!--col-md-8 mt-4  > -->
+    <div class="col-md-12 mx-auto">
+      <table class='table table-striped' aria-labelledby="tableLabel" *ngIf="ServArray">
+        <thead>
+          <tr>
+            <th>Código</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>CódigoBarras</th>
+            <th>Grupo</th>
+            <th>SubGrupo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let e of ServArray"
+              (click)="openEditTodo(e)"
+              [class.active]="e == sel">
+            <td><span class="badge LabelNum">{{e.id}}</span></td>
+            <td>{{ e.nombre }}</td>
+            <td>{{ e.descripcion }}</td>
+            <td>{{ e.codBarras }}</td>
+            <td>{{ e.grupo }}</td>
+            <td>{{ e.subGrupo }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <hr />
+      <ul class="list-group">
+        <!--al dar click  retiene e: empleado -->
+        <!--(click)="openForEdit(e)"-->
+        <!--marque el elemento activo-->
+        <!--[class.active]="e == sel">-->
+        <!-- ALT 186 ║ -->
+        <li *ngFor="let e of ServArray"
+            class="list-group-item list-group-item-action"
+            (click)="openEditTodo(e)"
+            [class.active]="e == sel">
+          <span class="badge LabelNum">{{e.id}}</span>
+          ║ {{e.nombre}} ║ {{e.descripcion}} ║ {{e.codBarras}} ║ {{e.updatedDate| date:'dd-MM-yyyy'}} ║
+          <span class="badge LabelNum">ACTIVO: &nbsp;&nbsp;&nbsp; {{e.done}}</span>
+        </li>
+      </ul>
+      <!--card mt-4  > -->
+      <h1>Servicios</h1>
+      <div class="card" alt="Max-width 150%">
+        <div class="card-body">
+          <div class="card-title">
+            <strong>Mantenimiento de Servicios  </strong>
+            <!--&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+            <div class="row">
+              <div class="col-sm-3">
+                <!--<a href="/productos" class="btn btn-low" style="text-align:left; color:maroon">
+          <h5>Ir a Tablas Productos </h5>
+        </a>-->
+                <button (click)="irTablas()">Mto. Tablas Generales</button>
+              </div>
+              <div class="col-sm-3">
+                <!--<a href="/servicios" class="btn btn-low" style="text-align:left; color:maroon">
+          <h5>Ir a Tablas Servicios </h5>
+        </a>-->
+                <button (click)="irProductos()">Mantenimiento-Productos</button>
+              </div>
+              <div class="col-sm-3">
+                <!--<a href="/servicios" class="btn btn-low" style="text-align:left; color:maroon">
+          <h5>Ir a Tablas Servicios </h5>
+        </a>-->
+                <button (click)="irCombos()">Mantenimiento Combos</button>
+              </div>
+              <div class="col-sm-3">
+                <a class="navbar-brand">  {{toDay| date:' dd/MM/yyyy - HH:mm:ss'}} </a>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <!-- directiva ngModel  >deben sumar 12 -->
+          <form [formGroup]="formT">
+            <div class="form-group row">
+              <strong>Consulte la infrormación Ingresando uno de los siguientes campos:   </strong>
+              <div class="col-sm-6">
+                <br> Nombre:
+
+                <!--<input type="text" #textId placeholder="number" step="1" min="0" max="100000" value="0" name="ed" required>-->
+                <input type="text" #textId placeholder="text" name="ed" required>
+                <button (click)="getUser(textId.value)">Buscar</button>
+                <hr>
+                <ng-container *ngIf="notFound">User not Found</ng-container>
+                <ng-container *ngIf="codigo">
+                  <div>UserId: {{codigo.codigoId}}  </div>
+                  <div>Id: {{codigo.id}}  </div>
+                  <div>Name: {{codigo.title }}  </div>
+                  <div>Username: {{codigo.body}}  </div>
+                </ng-container>
+
+                <div *ngIf="notFound" [ngStyle]="{'background-color': notFound ? 'red':'green'} ">User not Found</div>
+                <div *ngIf="!codigo" [ngStyle]="{'background-color': !codigo ? 'brown':'blue',
+                                  'textAlign': 'right',
+                                 'color': !codigo ? 'yellow': 'gray',
+                                 'paddingLeft': codigo ? '0px': '20px',
+                                 'paddingRight': !codigo ? '20px' :'0px',
+                                 'width': '400px' ,
+                                 'height' : '40px'} ">
+                  NO existe por ahora!!!
+                </div>
+                <div *ngIf="codigo" [ngStyle]="{'background-color': !codigo ? 'green':'blue',
+                                  'textAlign': 'right',
+                                 'color': !codigo ? 'yellow': 'gray',
+                                 'paddingLeft': !codigo ? '0px': '20px',
+                                 'paddingRight': !codigo ? '20px' :'0px',
+                                 'width': '450px' ,
+                                 'height' : '50px'} ">
+                  OK- Transacción Exitosa!!!
+                </div>
+
+              </div>
+              <div class="col-sm-6">
+                <br>  Codigo de Barras:
+
+                <input type="text" #textId placeholder="text" name="ed" required>
+                <button (click)="getUser(textId.value)">Buscar</button>
+                <hr>
+                <ng-container *ngIf="notFound">User not Found</ng-container>
+                <ng-container *ngIf="codigo">
+                  <div>UserId: {{codigo.codigoId}}  </div>
+                  <div>Id: {{codigo.id}}  </div>
+                  <div>Name: {{codigo.title }}  </div>
+                  <div>Username: {{codigo.body}}  </div>
+                </ng-container>
+
+                <div *ngIf="notFound" [ngStyle]="{'background-color': notFound ? 'red':'green'} ">User not Found</div>
+                <div *ngIf="!codigo" [ngStyle]="{'background-color': !codigo ? 'brown':'blue',
+                                  'textAlign': 'right',
+                                 'color': !codigo ? 'yellow': 'gray',
+                                 'paddingLeft': codigo ? '0px': '20px',
+                                 'paddingRight': !codigo ? '20px' :'0px',
+                                 'width': '400px' ,
+                                 'height' : '40px'} ">
+                  NO existe por ahora!!!
+                </div>
+                <div *ngIf="codigo" [ngStyle]="{'background-color': !codigo ? 'green':'blue',
+                                  'textAlign': 'right',
+                                 'color': !codigo ? 'yellow': 'gray',
+                                 'paddingLeft': !codigo ? '0px': '20px',
+                                 'paddingRight': !codigo ? '20px' :'0px',
+                                 'width': '450px' ,
+                                 'height' : '50px'} ">
+                  OK- Transacción Exitosa!!!
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="form-group row">
+              <div class="col-sm-2">
+                <label for="codBarras">Codigo Barras(*)</label>
+                <input type="text" placeholder="Ingrese Código de barras" formControlName="codBarras" size="18" style="margin-bottom: 10px;">
+                <span style="color:red;" *ngIf="formT.controls['codBarras'].touched && formT.controls['codBarras'].errors?.required">Description is required.</span>
+              </div>
+              <div class="col-sm-2">
+                <label for="nombre">Nombre (*)</label>
+                <input type="text" placeholder="Ingrese nombre" formControlName="nombre" size="18">
+                <span style="color:red;" *ngIf="formT.controls['nombre'].touched && formT.controls['nombre'].errors?.required">Title is required.</span>
+              </div>
+              <div class="col-sm-4">
+                <label for="descripcion">Descripción (*)</label>
+                <textarea type="text" placeholder="Ingrese descripción" formControlName="descripcion" rows="5" cols="34" style="margin-bottom: 10px;"></textarea>
+                <span style="color:red;" *ngIf="formT.controls['descripcion'].touched && formT.controls['descripcion'].errors?.required">Description is required.</span>
+              </div>
+              <!-- [readonly]="NoVerFecha"  value= toDay [placeholder]="toDay | date:'dd-MM-yyyy'"
+    [value]="'2021-03-12' | date:'dd-MM-yyyy'"  -->
+              <div class="col-sm-2">
+                <label for="cbGrupo">Grupo (*)</label>
+                <select id="cbGrupo" formControlName="grupo" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.grupo.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of AGrupo" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+              </div>
+              <div class="col-sm-2">
+                <label for="cbsubGrupo">SubGrupo (*)</label>
+                <select id="cbsubGrupo" formControlName="subGrupo" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.subGrupo.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrSubGrupo" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+              </div>
+            </div>
+            <hr />
+            <!--<strong>Atributos Comerciales</strong>-->
+            <div class="form-group row">
+              <div class="col-sm-2">
+                <label for="cbMedida">Unidad Medida(*)</label>
+                <select id="cbMedida" formControlName="medida" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.medida.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrMedida" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.medida.errors && formT.controls.medida.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <!--elimina 28 junio Alvaro Montenegro  -->
+              <!--<div class="col-sm-3">
+                <label for="cbBodega">Unidad Negocio(*)</label>
+                <select id="cbBodega" formControlName="bodega" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.bodega.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrBodega" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.bodega.errors && formT.controls.bodega.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-3">
+                <label for="cbSeccion">Sucursal-Agencia(*)</label>
+                <select id="cbSeccion" formControlName="seccion" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.seccion.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrBodega" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.seccion.errors && formT.controls.seccion.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>-->
+            </div>
+            <hr />
+            <strong>Atributos Fiscales</strong>
+            <div class="form-group row">
+              <div class="col-sm-2">
+                <label for="cbclIva">Categoría IVA(*)</label>
+                <select id="cbclIva" formControlName="clIva" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.clIva.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrClIva" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.clIva.errors && formT.controls.clIva.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-2">
+                <label for="clasIpoConsumo">Tarifa IVA(*)</label>
+                <select id="clasIpoConsumo" formControlName="bodega" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.bodega.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrBodega" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.bodega.errors && formT.controls.bodega.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-2">
+                <div class="form-group">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type="checkbox" class="form-check-input" formControlName="perennePerecedero">
+                  <label class="form-check-label" for="done">IVA mayor vlr de costo o gasto</label>
+                </div>
+              </div>
+              <div class="col-sm-2">
+                <div class="form-group">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type="checkbox" class="form-check-input" formControlName="perennePerecedero">
+                  <label class="form-check-label" for="done">Producto maneja zonas Especiales</label>
+                </div>
+              </div>
+              <!--elimina 28 junio Alvaro Montenegro  -->
+              <!--<div class="col-sm-2">
+                <label for="clasIpoConsumo">Zona Especial(*)</label>
+                <select id="clasIpoConsumo" formControlName="bodega" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.bodega.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrBodega" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.bodega.errors && formT.controls.bodega.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>-->
+              <div class="col-sm-2">
+                <div class="form-group">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type="checkbox" class="form-check-input" formControlName="perennePerecedero">
+                  <label class="form-check-label" for="done">Impo  consumo </label>
+                </div>
+              </div>
+              <!--<div class="col-sm-2">
+                <label for="cbclIva">Categoría ICA(*)</label>
+                <select id="cbclIva" formControlName="clIva" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.clIva.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrClIva" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.clIva.errors && formT.controls.clIva.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-2">
+                <label for="clasIpoConsumo">Tarifa ICA(*)</label>
+                <select id="clasIpoConsumo" formControlName="bodega" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.bodega.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrBodega" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.bodega.errors && formT.controls.bodega.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>-->
+              <!--<div class="col-sm-2">
+                <label for="clasIpoConsumo">Zona Especial(*)</label>
+                <select id="clasIpoConsumo" formControlName="bodega" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.bodega.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrBodega" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.bodega.errors && formT.controls.bodega.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>-->
+              <div class="col-sm-3">
+                <label for="clasIpoConsumo">Categoría Impoconsumo(*)</label>
+                <select id="clasIpoConsumo" formControlName="clIpoConsumo" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.clIpoConsumo.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrClIpoConsum" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.clIpoConsumo.errors && formT.controls.clIpoConsumo.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <div class="col-sm-3">
+                <label for="cbBodega">Tarifa Impoconsumo(*)</label>
+                <select id="cbBodega" formControlName="bodega" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.bodega.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrBodega" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.bodega.errors && formT.controls.bodega.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+            </div>
+            <hr />
+            <strong>Atributos Comerciales</strong>
+            <div class="form-group row">
+              <div class="col-sm-2">
+                <label for="cbPrecio">Precio1(*)</label>
+                <input type="text" placeholder="$200000.00" step="0.01" formControlName="precio" size="13">
+                <span style="color:red;" *ngIf="formT.controls['precio'].touched && formT.controls['precio'].errors?.required">precio is required.</span>
+              </div>
+              <div class="col-sm-2">
+                <label for="cbPrecio">Precio2(*)</label>
+                <input type="text" placeholder="$10000.00" step="0.01" formControlName="precio" size="13">
+                <span style="color:red;" *ngIf="formT.controls['precio'].touched && formT.controls['precio'].errors?.required">precio is required.</span>
+              </div>
+              <div class="col-sm-2">
+                <label for="cbPrecio">Precio3(*)</label>
+                <input type="text" placeholder="$10000.00" step="0.01" formControlName="precio" size="13">
+                <span style="color:red;" *ngIf="formT.controls['precio'].touched && formT.controls['precio'].errors?.required">precio is required.</span>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type="checkbox" class="form-check-input" formControlName="perennePerecedero">
+                  <label class="form-check-label" for="done">Aviso control margen de Utilidad en la factura de venta</label>
+                </div>
+              </div>
+              <!-- Proveedor style="width: 333px;" -->
+              <div class="col-sm-2">
+                <label for="cbProveedor">Proveedor(*)</label>
+                <select id="cbProveedor" formControlName="proveedor" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.proveedor.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrProveedor" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.proveedor.errors && formT.controls.proveedor.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div>
+              <!--elimina 28 junio Alvaro Montenegro  -->
+              <!--<div class="col-sm-2">
+                <label for="cbProveedor">Sector(*)</label>
+                <select id="cbProveedor" formControlName="proveedor" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.proveedor.errors}">
+                  <option value="">Seleccione uno</option>
+                  <option *ngFor="let item of arrProveedor" [value]="item.id">
+                    {{ item.name }}
+                  </option>
+                </select>
+                <div *ngIf="submitted && formT.controls.proveedor.errors && formT.controls.proveedor.errors.required" class="invalid-feedback">Campo obligatorio</div>
+              </div-->
+              <!--<div class="col-sm-2">
+                <label for="nombre">Descuento(*) </label>
+                <input type="text" placeholder="99.688.888" formControlName="nombre" size="13">
+                <span style="color:red;" *ngIf="formT.controls['nombre'].touched && formT.controls['nombre'].errors?.required">Title is required.</span>
+              </div>-->
+            </div>
+            <hr />
+          </form>
+          <strong>Atributos Administrativos</strong>
+          <strong>Activos Fijos como prestadores de Servicio</strong>
+          <div>
+            <select [(ngModel)]="opcion" class="form-select" multiple aria-label="multiple select example">
+              <option selected>Seleccione Activo(s) Fijo(s) como prestador de Servicio</option>
+              <option value="Activo 1">Activo fijo Uno</option>
+              <option value="Activo 2">Activo fijo Dos</option>
+              <option value="Activo 3">Activo fijo Tres</option>
+              <option value="Activo 4">Activo fijo Cuatro</option>
+              <option value="Activo 5">Activo fijo Cinco</option>
+              <option value="Activo 6">Activo fijo Seis</option>
+            </select>
+            <div [ngSwitch]="opcion">
+              <div *ngSwitchDefault> Confirmar selección</div>
+              <div *ngSwitchCase="'1'"> seleccionó opcion 1 </div>
+              <div *ngSwitchCase="'2'"> seleccionó opcion 2 </div>
+              <div *ngSwitchCase="'3'"> seleccionó opcion 3 </div>
+              <div *ngSwitchCase="'4'"> seleccionó opcion 4 </div>
+              <div *ngSwitchCase="'5'"> seleccionó opcion 5 </div>
+              <div *ngSwitchCase="'6'"> seleccionó opcion 6 </div>
+              <table>
+                <tr *ngFor="let i of opcion ;let r=index; let primero = first; let ultimo = last; let impar = odd; let par = even"
+                    [ngClass]="{'Class-Par':par, 'class-Impar':impar }">
+                  Seleccionó la opcion:
+                  <td> {{i}} </td>
+                </tr>
+              </table>
+            </div>
+            <hr />
+            <button (click)="AddEditTodo()" class="btn btn-primary" [disabled]="formT.invalid" style="margin: 10px;"> Guardar</button>
+
+            <button *ngIf="sel.id!==0" (click)="deleteTodo()" class="btn btn-danger"> Borrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--<pre>{{ prod | json}} </pre>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="arrGrupo">
+  <thead>
+    <tr>
+      <th>Codigo</th>
+      <th>Nombre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of arrGrupo">
+      <td>{{ item.id }}</td>
+      <td>{{ item.name }}</td>
+    </tr>
+  </tbody>
+</table>
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="AGrupo">
+  <thead>
+    <tr>
+      <th>Codigo</th>
+      <th>Nombre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of AGrupo">
+      <td>{{ item.id }}</td>
+      <td>{{ item.name }}</td>
+    </tr>
+  </tbody>
+</table>-->
+

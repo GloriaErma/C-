@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Gloria Erma\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Gloria Erma\\.nuget\\packages",
+      "C:\\Microsoft\\Xamarin\\NuGet"
+    ]
+  }
+}

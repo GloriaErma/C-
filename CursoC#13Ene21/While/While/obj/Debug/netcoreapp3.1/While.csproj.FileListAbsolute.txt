@@ -1,0 +1,13 @@
+D:\ProyectoBDprueba\CursoC#13Ene21\While\While\bin\Debug\netcoreapp3.1\While.exe
+D:\ProyectoBDprueba\CursoC#13Ene21\While\While\bin\Debug\netcoreapp3.1\While.deps.json
+D:\ProyectoBDprueba\CursoC#13Ene21\While\While\bin\Debug\netcoreapp3.1\While.runtimeconfig.json
+D:\ProyectoBDprueba\CursoC#13Ene21\While\While\bin\Debug\netcoreapp3.1\While.runtimeconfig.dev.json
+D:\ProyectoBDprueba\CursoC#13Ene21\While\While\bin\Debug\netcoreapp3.1\While.dll
+D:\ProyectoBDprueba\CursoC#13Ene21\While\While\bin\Debug\netcoreapp3.1\While.pdb
+D:\ProyectoBDprueba\CursoC#13Ene21\While\While\obj\Debug\netcoreapp3.1\While.csprojAssemblyReference.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\While\While\obj\Debug\netcoreapp3.1\While.AssemblyInfoInputs.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\While\While\obj\Debug\netcoreapp3.1\While.AssemblyInfo.cs
+D:\ProyectoBDprueba\CursoC#13Ene21\While\While\obj\Debug\netcoreapp3.1\While.csproj.CoreCompileInputs.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\While\While\obj\Debug\netcoreapp3.1\While.dll
+D:\ProyectoBDprueba\CursoC#13Ene21\While\While\obj\Debug\netcoreapp3.1\While.pdb
+D:\ProyectoBDprueba\CursoC#13Ene21\While\While\obj\Debug\netcoreapp3.1\While.genruntimeconfig.cache

@@ -1,0 +1,67 @@
+﻿<Window x:Class="WPresFund_ConexionGestionPedidos.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPresFund_ConexionGestionPedidos"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="900" 
+        Activated="Window_Activated"   >
+        <!--// 2- forma OK  utilizar evento ventana TOMA FOCO--> 
+        
+    <Grid Margin="0,0,-154,0">
+        <Label Content="**CLIENTES**" HorizontalAlignment="Left" Margin="12,36,0,0" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.133,0.488"/>
+
+        <!--<ListBox Name="ListaClientes" HorizontalAlignment="Left" Height="207" Margin="15,92,0,0" VerticalAlignment="Top" Width="129" SelectionChanged="ListaClientes_SelectionChanged" />-->
+        <!--Nueva funcion de eventos para ListaClientes-->
+        <ListBox Name="ListaClientes" HorizontalAlignment="Left" Height="207" Margin="15,92,0,0" VerticalAlignment="Top" Width="129" MouseDoubleClick="ListaClientes_MouseDoubleClick" />
+
+        <Label Content="**PEDIDOS**" HorizontalAlignment="Left" Margin="190,37,0,0" VerticalAlignment="Top" FontSize="22" RenderTransformOrigin="0.023,0.464" />
+        <ListBox Name="pedidosCliente" HorizontalAlignment="Left" Height="209" Margin="185,94,0,0" VerticalAlignment="Top" Width="178" />
+        <ListBox Name="TodosPedidos" HorizontalAlignment="Left" Height="295" Margin="397,94,0,0" VerticalAlignment="Top" Width="383"  />
+        <Label Content="**TODOS LOS PEDIDOS **&#xD;&#xA;" HorizontalAlignment="Left" Margin="419,34,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.538,0.964" FontSize="22"/>
+        <Button Content="Borrar" HorizontalAlignment="Left" Margin="747,49,-30,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.5,0.5" FontSize="22" Click="Button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-10.736"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Insertar" Margin="26,363,922,0" VerticalAlignment="Top" RenderTransformOrigin="0.295,1.603" FontSize="22" Click="Button_Click_1">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-10.736"/>
+                    <TranslateTransform X="7.134" Y="3.102"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Borrar" HorizontalAlignment="Left" Margin="28,320,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.267,0.987" FontSize="22" Click="Button_Click_2" >
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-10.736"/>
+                    <TranslateTransform X="4.003" Y="10.438"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <TextBox Name="InsertaCliente" HorizontalAlignment="Left" Height="42" Margin="38,411,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="324" FontSize="22" RenderTransformOrigin="0.309,1.19"/>
+        <Button Content="Actualizar" HorizontalAlignment="Left" Margin="242,323,0,0" VerticalAlignment="Top" Width="119" FontSize="22" RenderTransformOrigin="0.178,0.2" Click="Button_Click_3">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-10.877"/>
+                    <TranslateTransform X="-1.177" Y="7.409"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+
+
+    </Grid>
+</Window>

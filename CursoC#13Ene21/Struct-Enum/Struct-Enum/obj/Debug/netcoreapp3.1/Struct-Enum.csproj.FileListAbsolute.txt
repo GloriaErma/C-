@@ -1,0 +1,13 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Struct-Enum\Struct-Enum\bin\Debug\netcoreapp3.1\Struct-Enum.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Struct-Enum\Struct-Enum\bin\Debug\netcoreapp3.1\Struct-Enum.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Struct-Enum\Struct-Enum\bin\Debug\netcoreapp3.1\Struct-Enum.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Struct-Enum\Struct-Enum\bin\Debug\netcoreapp3.1\Struct-Enum.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Struct-Enum\Struct-Enum\bin\Debug\netcoreapp3.1\Struct-Enum.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Struct-Enum\Struct-Enum\bin\Debug\netcoreapp3.1\Struct-Enum.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Struct-Enum\Struct-Enum\obj\Debug\netcoreapp3.1\Struct-Enum.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Struct-Enum\Struct-Enum\obj\Debug\netcoreapp3.1\Struct-Enum.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Struct-Enum\Struct-Enum\obj\Debug\netcoreapp3.1\Struct-Enum.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Struct-Enum\Struct-Enum\obj\Debug\netcoreapp3.1\Struct-Enum.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Struct-Enum\Struct-Enum\obj\Debug\netcoreapp3.1\Struct-Enum.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Struct-Enum\Struct-Enum\obj\Debug\netcoreapp3.1\Struct-Enum.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Struct-Enum\Struct-Enum\obj\Debug\netcoreapp3.1\Struct-Enum.genruntimeconfig.cache

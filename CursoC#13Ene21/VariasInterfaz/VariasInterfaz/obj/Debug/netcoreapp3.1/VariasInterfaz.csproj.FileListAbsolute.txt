@@ -1,0 +1,13 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VariasInterfaz\VariasInterfaz\bin\Debug\netcoreapp3.1\VariasInterfaz.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VariasInterfaz\VariasInterfaz\bin\Debug\netcoreapp3.1\VariasInterfaz.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VariasInterfaz\VariasInterfaz\bin\Debug\netcoreapp3.1\VariasInterfaz.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VariasInterfaz\VariasInterfaz\bin\Debug\netcoreapp3.1\VariasInterfaz.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VariasInterfaz\VariasInterfaz\bin\Debug\netcoreapp3.1\VariasInterfaz.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VariasInterfaz\VariasInterfaz\bin\Debug\netcoreapp3.1\VariasInterfaz.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VariasInterfaz\VariasInterfaz\obj\Debug\netcoreapp3.1\VariasInterfaz.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VariasInterfaz\VariasInterfaz\obj\Debug\netcoreapp3.1\VariasInterfaz.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VariasInterfaz\VariasInterfaz\obj\Debug\netcoreapp3.1\VariasInterfaz.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VariasInterfaz\VariasInterfaz\obj\Debug\netcoreapp3.1\VariasInterfaz.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VariasInterfaz\VariasInterfaz\obj\Debug\netcoreapp3.1\VariasInterfaz.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VariasInterfaz\VariasInterfaz\obj\Debug\netcoreapp3.1\VariasInterfaz.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\VariasInterfaz\VariasInterfaz\obj\Debug\netcoreapp3.1\VariasInterfaz.genruntimeconfig.cache

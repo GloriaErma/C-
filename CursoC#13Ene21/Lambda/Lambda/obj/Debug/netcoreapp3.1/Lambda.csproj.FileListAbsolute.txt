@@ -1,0 +1,13 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Lambda\Lambda\bin\Debug\netcoreapp3.1\Lambda.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Lambda\Lambda\bin\Debug\netcoreapp3.1\Lambda.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Lambda\Lambda\bin\Debug\netcoreapp3.1\Lambda.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Lambda\Lambda\bin\Debug\netcoreapp3.1\Lambda.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Lambda\Lambda\bin\Debug\netcoreapp3.1\Lambda.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Lambda\Lambda\bin\Debug\netcoreapp3.1\Lambda.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Lambda\Lambda\obj\Debug\netcoreapp3.1\Lambda.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Lambda\Lambda\obj\Debug\netcoreapp3.1\Lambda.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Lambda\Lambda\obj\Debug\netcoreapp3.1\Lambda.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Lambda\Lambda\obj\Debug\netcoreapp3.1\Lambda.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Lambda\Lambda\obj\Debug\netcoreapp3.1\Lambda.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Lambda\Lambda\obj\Debug\netcoreapp3.1\Lambda.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Lambda\Lambda\obj\Debug\netcoreapp3.1\Lambda.genruntimeconfig.cache

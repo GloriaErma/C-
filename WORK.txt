@@ -1,0 +1,25 @@
+
+
+//arrclIpoConsum: string[] = ["clIpoConsum1", "clIpoConsum2", "clIpoConsum3"];
+  arrSeccion: any[] = [{ id: 1, name: "Seccion1" }, { id: 2, name: "Seccion2" }, { id: 3, name: "Seccion3" }];
+  //arrclIva: string[] = ["clIva1", "clIva2", "clIva3"];
+  arrSeccion: any[] = [{ id: 1, name: "Seccion1" }, { id: 2, name: "Seccion2" }, { id: 3, name: "Seccion3" }];
+  //arrMedida: string[] = ["Medida1", "Medida2", "Medida3"];
+  arrSeccion: any[] = [{ id: 1, name: "Seccion1" }, { id: 2, name: "Seccion2" }, { id: 3, name: "Seccion3" }];
+  //arrVolumen: string[] = ["Volumen1", "Volumen2", "Volumen3"];
+  arrSeccion: any[] = [{ id: 1, name: "Seccion1" }, { id: 2, name: "Seccion2" }, { id: 3, name: "Seccion3" }];
+  //arrEmbalaje: string[] = ["Embalaje1", "Embalaje2", "Embalaje3"];
+  arrSeccion: any[] = [{ id: 1, name: "Seccion1" }, { id: 2, name: "Seccion2" }, { id: 3, name: "Seccion3" }];
+  //arrDescuento: string[] = ["Descuento1", "Descuento2", "Descuento3"];
+  arrSeccion: any[] = [{ id: 1, name: "Seccion1" }, { id: 2, name: "Seccion2" }, { id: 3, name: "Seccion3" }];
+  //arrGarantia: string[] = ["Garantia1", "Garantia2", "Garantia3"];
+  arrSeccion: any[] = [{ id: 1, name: "Seccion1" }, { id: 2, name: "Seccion2" }, { id: 3, name: "Seccion3" }];
+  //arrProveedor: string[] = ["Proveedor1", "Proveedor2", "Proveedor"];
+  arrSeccion: any[] = [{ id: 1, name: "Seccion1" }, { id: 2, name: "Seccion2" }, { id: 3, name: "Seccion3" }];
+  //arrMinimo: string[] = ["Minimo1", "Minimo2", "Minimo3"];
+  arrSeccion: any[] = [{ id: 1, name: "Seccion1" }, { id: 2, name: "Seccion2" }, { id: 3, name: "Seccion3" }];
+  //arrMaximo: string[] = ["Maximo1", "Maximo2", "Maximo3"];
+  arrSeccion: any[] = [{ id: 1, name: "Seccion1" }, { id: 2, name: "Seccion2" }, { id: 3, name: "Seccion3" }];
+  //arrPreSugerido: string[] = ["PreSugerido1", "PreSugerido2", "PreSugerido3"];
+  arrSeccion: any[] = [{ id: 1, name: "Seccion1" }, { id: 2, name: "Seccion2" }, { id: 3, name: "Seccion3" }];
+  //arrTiempoRotac: string[] = ["TiempoRotac1", "TiempoRotac2", "TiempoRotac3"];

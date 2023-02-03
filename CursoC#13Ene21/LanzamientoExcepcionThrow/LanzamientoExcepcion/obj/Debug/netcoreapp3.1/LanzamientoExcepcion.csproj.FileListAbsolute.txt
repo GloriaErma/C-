@@ -1,0 +1,13 @@
+D:\ProyectoBDprueba\CursoC#13Ene21\LanzamientoExcepcionThrow\LanzamientoExcepcion\obj\Debug\netcoreapp3.1\LanzamientoExcepcion.csprojAssemblyReference.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\LanzamientoExcepcionThrow\LanzamientoExcepcion\obj\Debug\netcoreapp3.1\LanzamientoExcepcion.AssemblyInfoInputs.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\LanzamientoExcepcionThrow\LanzamientoExcepcion\obj\Debug\netcoreapp3.1\LanzamientoExcepcion.AssemblyInfo.cs
+D:\ProyectoBDprueba\CursoC#13Ene21\LanzamientoExcepcionThrow\LanzamientoExcepcion\obj\Debug\netcoreapp3.1\LanzamientoExcepcion.csproj.CoreCompileInputs.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\LanzamientoExcepcionThrow\LanzamientoExcepcion\bin\Debug\netcoreapp3.1\LanzamientoExcepcion.exe
+D:\ProyectoBDprueba\CursoC#13Ene21\LanzamientoExcepcionThrow\LanzamientoExcepcion\bin\Debug\netcoreapp3.1\LanzamientoExcepcion.deps.json
+D:\ProyectoBDprueba\CursoC#13Ene21\LanzamientoExcepcionThrow\LanzamientoExcepcion\bin\Debug\netcoreapp3.1\LanzamientoExcepcion.runtimeconfig.json
+D:\ProyectoBDprueba\CursoC#13Ene21\LanzamientoExcepcionThrow\LanzamientoExcepcion\bin\Debug\netcoreapp3.1\LanzamientoExcepcion.runtimeconfig.dev.json
+D:\ProyectoBDprueba\CursoC#13Ene21\LanzamientoExcepcionThrow\LanzamientoExcepcion\bin\Debug\netcoreapp3.1\LanzamientoExcepcion.dll
+D:\ProyectoBDprueba\CursoC#13Ene21\LanzamientoExcepcionThrow\LanzamientoExcepcion\bin\Debug\netcoreapp3.1\LanzamientoExcepcion.pdb
+D:\ProyectoBDprueba\CursoC#13Ene21\LanzamientoExcepcionThrow\LanzamientoExcepcion\obj\Debug\netcoreapp3.1\LanzamientoExcepcion.dll
+D:\ProyectoBDprueba\CursoC#13Ene21\LanzamientoExcepcionThrow\LanzamientoExcepcion\obj\Debug\netcoreapp3.1\LanzamientoExcepcion.pdb
+D:\ProyectoBDprueba\CursoC#13Ene21\LanzamientoExcepcionThrow\LanzamientoExcepcion\obj\Debug\netcoreapp3.1\LanzamientoExcepcion.genruntimeconfig.cache

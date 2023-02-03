@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "VariasInterfaz/1.0.0": {
+        "runtime": {
+          "VariasInterfaz.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VariasInterfaz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

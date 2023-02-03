@@ -1,0 +1,15 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-PresFun-RadioButton\WPF-PresFun-RadioButton\bin\Debug\WPF-PresFun-RadioButton.exe.config
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-PresFun-RadioButton\WPF-PresFun-RadioButton\bin\Debug\WPF-PresFun-RadioButton.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-PresFun-RadioButton\WPF-PresFun-RadioButton\bin\Debug\WPF-PresFun-RadioButton.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-PresFun-RadioButton\WPF-PresFun-RadioButton\obj\Debug\WPF-PresFun-RadioButton.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-PresFun-RadioButton\WPF-PresFun-RadioButton\obj\Debug\MainWindow.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-PresFun-RadioButton\WPF-PresFun-RadioButton\obj\Debug\App.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-PresFun-RadioButton\WPF-PresFun-RadioButton\obj\Debug\WPF-PresFun-RadioButton_MarkupCompile.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-PresFun-RadioButton\WPF-PresFun-RadioButton\obj\Debug\WPF-PresFun-RadioButton_MarkupCompile.lref
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-PresFun-RadioButton\WPF-PresFun-RadioButton\obj\Debug\MainWindow.baml
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-PresFun-RadioButton\WPF-PresFun-RadioButton\obj\Debug\WPF-PresFun-RadioButton.g.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-PresFun-RadioButton\WPF-PresFun-RadioButton\obj\Debug\WPF_PresFun_RadioButton.Properties.Resources.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-PresFun-RadioButton\WPF-PresFun-RadioButton\obj\Debug\WPF-PresFun-RadioButton.csproj.GenerateResource.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-PresFun-RadioButton\WPF-PresFun-RadioButton\obj\Debug\WPF-PresFun-RadioButton.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-PresFun-RadioButton\WPF-PresFun-RadioButton\obj\Debug\WPF-PresFun-RadioButton.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-PresFun-RadioButton\WPF-PresFun-RadioButton\obj\Debug\WPF-PresFun-RadioButton.pdb

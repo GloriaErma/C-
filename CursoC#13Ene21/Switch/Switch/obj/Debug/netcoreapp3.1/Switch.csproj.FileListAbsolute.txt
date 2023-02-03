@@ -1,0 +1,13 @@
+D:\ProyectoBDprueba\CursoC#13Ene21\Switch\Switch\obj\Debug\netcoreapp3.1\Switch.csprojAssemblyReference.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\Switch\Switch\obj\Debug\netcoreapp3.1\Switch.AssemblyInfoInputs.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\Switch\Switch\obj\Debug\netcoreapp3.1\Switch.AssemblyInfo.cs
+D:\ProyectoBDprueba\CursoC#13Ene21\Switch\Switch\obj\Debug\netcoreapp3.1\Switch.csproj.CoreCompileInputs.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\Switch\Switch\bin\Debug\netcoreapp3.1\Switch.exe
+D:\ProyectoBDprueba\CursoC#13Ene21\Switch\Switch\bin\Debug\netcoreapp3.1\Switch.deps.json
+D:\ProyectoBDprueba\CursoC#13Ene21\Switch\Switch\bin\Debug\netcoreapp3.1\Switch.runtimeconfig.json
+D:\ProyectoBDprueba\CursoC#13Ene21\Switch\Switch\bin\Debug\netcoreapp3.1\Switch.runtimeconfig.dev.json
+D:\ProyectoBDprueba\CursoC#13Ene21\Switch\Switch\bin\Debug\netcoreapp3.1\Switch.dll
+D:\ProyectoBDprueba\CursoC#13Ene21\Switch\Switch\bin\Debug\netcoreapp3.1\Switch.pdb
+D:\ProyectoBDprueba\CursoC#13Ene21\Switch\Switch\obj\Debug\netcoreapp3.1\Switch.dll
+D:\ProyectoBDprueba\CursoC#13Ene21\Switch\Switch\obj\Debug\netcoreapp3.1\Switch.pdb
+D:\ProyectoBDprueba\CursoC#13Ene21\Switch\Switch\obj\Debug\netcoreapp3.1\Switch.genruntimeconfig.cache

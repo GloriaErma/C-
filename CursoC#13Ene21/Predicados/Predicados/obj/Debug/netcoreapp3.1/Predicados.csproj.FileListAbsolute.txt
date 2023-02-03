@@ -1,0 +1,13 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Predicados\Predicados\bin\Debug\netcoreapp3.1\Predicados.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Predicados\Predicados\bin\Debug\netcoreapp3.1\Predicados.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Predicados\Predicados\bin\Debug\netcoreapp3.1\Predicados.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Predicados\Predicados\bin\Debug\netcoreapp3.1\Predicados.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Predicados\Predicados\bin\Debug\netcoreapp3.1\Predicados.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Predicados\Predicados\bin\Debug\netcoreapp3.1\Predicados.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Predicados\Predicados\obj\Debug\netcoreapp3.1\Predicados.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Predicados\Predicados\obj\Debug\netcoreapp3.1\Predicados.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Predicados\Predicados\obj\Debug\netcoreapp3.1\Predicados.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Predicados\Predicados\obj\Debug\netcoreapp3.1\Predicados.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Predicados\Predicados\obj\Debug\netcoreapp3.1\Predicados.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Predicados\Predicados\obj\Debug\netcoreapp3.1\Predicados.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Predicados\Predicados\obj\Debug\netcoreapp3.1\Predicados.genruntimeconfig.cache

@@ -1,0 +1,256 @@
+<p>productos works!</p>
+<!-- Aquí termina el código del menú -->
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-itema active "><a href="#">Panel Inventario/ </a></li>
+    <li class="breadcrumb-item " aria-current="page">Productos</li>
+    <!-- <li class="breadcrumb-item active" aria-current="page">Sección actual</li> -->
+  </ol>
+</nav>
+<h1>Productos</h1>
+
+<pre>{{ prod | json}} </pre>
+
+<div class="container body">
+  <div class="row">
+    <div class="col-md-8 mt-4 ">
+      <ul class="list-group">
+        <!--al dar click  retiene e: empleado -->
+        <!--(click)="openForEdit(e)"-->
+        <!--marque el elemento activo-->
+        <!--[class.active]="e == sel">-->
+        <li *ngFor="let e of EmplArray"
+            class="list-group-item list-group-item-action"
+            (click)="openForEdit(e)"
+            [class.active]="e == sel">
+          <span class="badge LabelNum">{{e.id}}</span>
+          {{e.title}} , {{e.descripcion}} , {{e.createdDate| date:'dd-MM-yyyy'}} , {{e.updatedDate| date:'dd-MM-yyyy'}}
+
+          <span class="badge LabelNum">{{e.done}}</span>
+        </li>
+      </ul>
+      <div class="card mt-4">
+        <div class="card-body">
+          <div class="card-title">
+            <strong>Insert a new Record</strong>
+          </div>
+          <!-- directiva ngModel  > -->
+          <form [formGroup]="form">
+            <div class="form-group">
+              <input type="text" placeholder="Insert a title" formControlName="title" style="margin-bottom: 10px;">
+              <span style="color:red;" *ngIf="form.controls['title'].touched && form.controls['title'].errors?.required">Title is required.</span>
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Insert a descripcion" formControlName="descripcion" style="margin-bottom: 10px;">
+              <span style="color:red;" *ngIf="form.controls['descripcion'].touched && form.controls['descripcion'].errors?.required">Description is required.</span>
+            </div>
+            <div class="form-group">
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="checkbox" class="form-check-input" formControlName="done">
+              <label class="form-check-label" for="done">Done</label>
+            </div>
+            <!-- [readonly]="NoVerFecha"  value= toDay [placeholder]="toDay | date:'dd-MM-yyyy'"
+            [value]="'2021-03-12' | date:'dd-MM-yyyy'"  -->
+            <div class="form-group" *ngIf="this.form.controls['createdDate'].value">
+              <label> <strong>Fecha de Creación:</strong> </label>
+              <input type="datetime-local" formControlName="createdDate" [readonly]="NoVerFecha" style="margin-bottom: 10px;">
+            </div>
+            <div class="form-group">
+              <label> <strong>Fecha de Actualización: </strong> </label>
+              <input type="datetime-local" placeholder="Insert a updated date" value=toDay formControlName="updatedDate" class="form-control" style="margin-bottom: 10px;">
+
+              <span style="color:red;" *ngIf="form.controls['updatedDate'].touched && form.controls['updatedDate'].errors?.required">updatedDate is required.</span>
+            </div>
+          </form>
+          <!-- </form> -->
+          <button (click)="AddEdit()" class="btn btn-primary" [disabled]="form.invalid" style="margin: 10px;"> Submit</button>
+          <button *ngIf="sel.id!==0" (click)="delete()" class="btn btn-danger"> Delete</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="toolbar" role="banner">
+        <img width="55"
+             alt="Angular Logo"
+             src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<p *ngIf="!data"><em>Loading...</em></p>
+
+<div class="col">
+  <strong>Indique Código Producto </strong>
+  <app-get-demo></app-get-demo>
+</div>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="data">
+  <thead>
+    <tr>
+      <th>Codigo</th>
+      <th>Nombre</th>
+      <th>Descripcion</th>
+      <th>ValorCompra</th>
+      <th>PrecioSugerido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let e of data">
+      <td>{{ e.codigo }}</td>
+      <td>{{ e.nombre }}</td>
+      <td>{{ e.descripcion }}</td>
+      <td>{{ e.valorCompra }}</td>
+      <td>{{ e.precioSugerido  }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="/">
+    Mantenimiento de Productos
+  </a>
+  <a class="navbar-brand"> {{toDay| date:' dd-MM-yyyy T HH:mm:ss'}}     </a>
+</nav>
+
+<div class="container body">
+  <div class="row">
+    <!--col-md-8 mt-4  > -->
+    <div class="col-md-10 mx-auto">
+      <table class='table table-striped' aria-labelledby="tableLabel" *ngIf="data">
+        <thead>
+          <tr>
+            <th>Codigo</th>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+            <th>ValorCompra</th>
+            <th>PrecioSugerido</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let e of data"
+              (click)="openForEdit(e)"
+              [class.active]="e == sel">
+            <td><span class="badge LabelNum">{{e.codigo}}</span></td>
+            <td>{{ e.nombre }}</td>
+            <td>{{ e.descripcion }}</td>
+            <td>{{ e.valorCompra }}</td>
+            <td>{{ e.precioSugerido  }}</td>
+          </tr>
+        </tbody>
+      </table>
+      <!--card mt-4  > -->
+      <div class="card" alt="Max-width 100%">
+        <div class="card-body">
+          <div class="card-title">
+            <strong>Insert a new Record</strong>
+          </div>
+          <!-- directiva ngModel  > -->
+          <form [formGroup]="form">
+            <div class="form-group row">
+              <div class="col-sm-6">
+                <input type="text" placeholder="Digite nombre" formControlName="title" style="margin-bottom: 10px;">
+                <span style="color:red;" *ngIf="form.controls['title'].touched && form.controls['title'].errors?.required">Title is required.</span>
+              </div>
+              <div class="col-sm-6">
+                <input type="text" placeholder="Digite descripcion" formControlName="descripcion" style="margin-bottom: 10px;">
+                <span style="color:red;" *ngIf="form.controls['descripcion'].touched && form.controls['descripcion'].errors?.required">Description is required.</span>
+              </div>
+              <div class="col-sm-6">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" class="form-check-input" formControlName="done">
+                <label class="form-check-label" for="done">Done</label>
+              </div>
+              <!-- [readonly]="NoVerFecha"  value= toDay [placeholder]="toDay | date:'dd-MM-yyyy'"
+  [value]="'2021-03-12' | date:'dd-MM-yyyy'"  -->
+              <div class="col-sm-6">
+                <div class="form-group" *ngIf="this.form.controls['createdDate'].value">
+                  <label> <strong>Fecha de Creación:</strong> </label>
+                  <input type="datetime-local" formControlName="createdDate" [readonly]="NoVerFecha" style="margin-bottom: 10px;">
+                </div>
+
+                <div class="form-group">
+                  <label> <strong>Fecha de Actualización: </strong> </label>
+                  <input type="datetime-local" placeholder="Insert a updated date" value=toDay formControlName="updatedDate" class="form-control" style="margin-bottom: 10px; width: 165px">
+                  <span style="color:red;" *ngIf="form.controls['updatedDate'].touched && form.controls['updatedDate'].errors?.required">updatedDate is required.</span>
+                </div>
+                <div class="form-group">
+                  <label for="cbGrupo">Grupo(*)</label>
+                  <select id="cbGrupo" formControlName="grupo" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && activarForm.controls.grupo.errors}">
+                    <option value="">Seleccione uno</option>
+                    <option *ngFor="let item of arrGrupo" [value]="item.id">
+                      {{ item }}
+                    </option>
+                  </select>
+                  <div *ngIf="submitted && activarForm.controls.grupo.errors && activarForm.controls.grupo.errors.required" class="invalid-feedback">Campo obligatorio</div>
+                </div>
+              </div>
+            </div>
+              <strong>Localización</strong>
+              <div class="form-group row">
+                <div class="col-sm-6">
+                  <label for="cbBodega">Bodega(*)</label>
+                  <select id="cbBodega" formControlName="bodega" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && activarForm.controls.bodega.errors}">
+                    <option value="">Seleccione uno</option>
+                    <option *ngFor="let item of arrBodega" [value]="item.id">
+                      {{ item }}
+                    </option>
+                  </select>
+                  <div *ngIf="submitted && activarForm.controls.bodega.errors && activarForm.controls.bodega.errors.required" class="invalid-feedback">Campo obligatorio</div>
+                </div>
+                <div class="col-sm-6">
+                  <label for="cbSeccion">Seccion(*)</label>
+                  <select id="cbSeccion" formControlName="seccion" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && activarForm.controls.seccion.errors}">
+                    <option value="">Seleccione uno</option>
+                    <option *ngFor="let item of arrSeccion" [value]="item.id">
+                      {{ item }}
+                    </option>
+                  </select>
+                  <div *ngIf="submitted && activarForm.controls.seccion.errors && activarForm.controls.seccion.errors.required" class="invalid-feedback">Campo obligatorio</div>
+                </div>
+                <div class="col-sm-6">
+                  <label for="cbGenero">Pasillo(*)</label>
+                  <select id="cbGenero" formControlName="pasillo" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && activarForm.controls.pasillo.errors}">
+                    <option value="">Seleccione uno</option>
+                    <option *ngFor="let item of arrPasillo" [value]="item.id">
+                      {{ item }}
+                    </option>
+                  </select>
+                  <div *ngIf="submitted && activarForm.controls.genero.errors && activarForm.controls.genero.errors.required" class="invalid-feedback">Campo obligatorio</div>
+                </div>
+                <div class="col-sm-6">
+                  <label for="cbEstante">Estante(*)</label>
+                  <select id="cbEstante" formControlName="estante" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && activarForm.controls.estante.errors}">
+                    <option value="">Seleccione uno</option>
+                    <option *ngFor="let item of arrEstante" [value]="item.id">
+                      {{ item }}
+                    </option>
+                  </select>
+                  <div *ngIf="submitted && activarForm.controls.estante.errors && activarForm.controls.estante.errors.required" class="invalid-feedback">Campo obligatorio</div>
+                </div>
+              </div>
+              <strong>Atributos Fiscales</strong>
+
+
+
+
+
+
+</form>
+          <!-- </form> -->
+          <button (click)="AddEdit()" class="btn btn-primary" [disabled]="form.invalid" style="margin: 10px;"> Submit</button>
+          <button *ngIf="sel.id!==0" (click)="delete()" class="btn btn-danger"> Delete</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="toolbar" role="banner">
+        <img width="55"
+             alt="Angular Logo"
+             src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==" />
+      </div>
+    </div>
+  </div>
+</div>
+

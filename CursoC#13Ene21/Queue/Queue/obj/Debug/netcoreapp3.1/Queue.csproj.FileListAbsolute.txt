@@ -1,0 +1,12 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Queue\Queue\obj\Debug\netcoreapp3.1\Queue.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Queue\Queue\obj\Debug\netcoreapp3.1\Queue.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Queue\Queue\obj\Debug\netcoreapp3.1\Queue.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Queue\Queue\bin\Debug\netcoreapp3.1\Queue.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Queue\Queue\bin\Debug\netcoreapp3.1\Queue.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Queue\Queue\bin\Debug\netcoreapp3.1\Queue.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Queue\Queue\bin\Debug\netcoreapp3.1\Queue.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Queue\Queue\bin\Debug\netcoreapp3.1\Queue.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Queue\Queue\bin\Debug\netcoreapp3.1\Queue.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Queue\Queue\obj\Debug\netcoreapp3.1\Queue.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Queue\Queue\obj\Debug\netcoreapp3.1\Queue.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Queue\Queue\obj\Debug\netcoreapp3.1\Queue.genruntimeconfig.cache

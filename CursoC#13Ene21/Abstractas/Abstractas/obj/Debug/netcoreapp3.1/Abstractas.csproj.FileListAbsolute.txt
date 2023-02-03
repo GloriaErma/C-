@@ -1,0 +1,13 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Abstractas\Abstractas\obj\Debug\netcoreapp3.1\Abstractas.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Abstractas\Abstractas\obj\Debug\netcoreapp3.1\Abstractas.AssemblyInfoInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Abstractas\Abstractas\obj\Debug\netcoreapp3.1\Abstractas.AssemblyInfo.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Abstractas\Abstractas\obj\Debug\netcoreapp3.1\Abstractas.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Abstractas\Abstractas\bin\Debug\netcoreapp3.1\Abstractas.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Abstractas\Abstractas\bin\Debug\netcoreapp3.1\Abstractas.deps.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Abstractas\Abstractas\bin\Debug\netcoreapp3.1\Abstractas.runtimeconfig.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Abstractas\Abstractas\bin\Debug\netcoreapp3.1\Abstractas.runtimeconfig.dev.json
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Abstractas\Abstractas\bin\Debug\netcoreapp3.1\Abstractas.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Abstractas\Abstractas\bin\Debug\netcoreapp3.1\Abstractas.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Abstractas\Abstractas\obj\Debug\netcoreapp3.1\Abstractas.dll
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Abstractas\Abstractas\obj\Debug\netcoreapp3.1\Abstractas.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\Abstractas\Abstractas\obj\Debug\netcoreapp3.1\Abstractas.genruntimeconfig.cache

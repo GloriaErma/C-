@@ -1,0 +1,13 @@
+D:\ProyectoBDprueba\CursoC#13Ene21\DoWhile\DoWhile\bin\Debug\netcoreapp3.1\DoWhile.exe
+D:\ProyectoBDprueba\CursoC#13Ene21\DoWhile\DoWhile\bin\Debug\netcoreapp3.1\DoWhile.deps.json
+D:\ProyectoBDprueba\CursoC#13Ene21\DoWhile\DoWhile\bin\Debug\netcoreapp3.1\DoWhile.runtimeconfig.json
+D:\ProyectoBDprueba\CursoC#13Ene21\DoWhile\DoWhile\bin\Debug\netcoreapp3.1\DoWhile.runtimeconfig.dev.json
+D:\ProyectoBDprueba\CursoC#13Ene21\DoWhile\DoWhile\bin\Debug\netcoreapp3.1\DoWhile.dll
+D:\ProyectoBDprueba\CursoC#13Ene21\DoWhile\DoWhile\bin\Debug\netcoreapp3.1\DoWhile.pdb
+D:\ProyectoBDprueba\CursoC#13Ene21\DoWhile\DoWhile\obj\Debug\netcoreapp3.1\DoWhile.csprojAssemblyReference.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\DoWhile\DoWhile\obj\Debug\netcoreapp3.1\DoWhile.AssemblyInfoInputs.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\DoWhile\DoWhile\obj\Debug\netcoreapp3.1\DoWhile.AssemblyInfo.cs
+D:\ProyectoBDprueba\CursoC#13Ene21\DoWhile\DoWhile\obj\Debug\netcoreapp3.1\DoWhile.csproj.CoreCompileInputs.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\DoWhile\DoWhile\obj\Debug\netcoreapp3.1\DoWhile.dll
+D:\ProyectoBDprueba\CursoC#13Ene21\DoWhile\DoWhile\obj\Debug\netcoreapp3.1\DoWhile.pdb
+D:\ProyectoBDprueba\CursoC#13Ene21\DoWhile\DoWhile\obj\Debug\netcoreapp3.1\DoWhile.genruntimeconfig.cache

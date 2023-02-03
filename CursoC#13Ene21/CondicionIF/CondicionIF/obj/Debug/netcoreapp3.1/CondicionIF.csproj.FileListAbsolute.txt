@@ -1,0 +1,13 @@
+D:\ProyectoBDprueba\CursoC#13Ene21\CondicionIF\CondicionIF\bin\Debug\netcoreapp3.1\CondicionIF.exe
+D:\ProyectoBDprueba\CursoC#13Ene21\CondicionIF\CondicionIF\bin\Debug\netcoreapp3.1\CondicionIF.deps.json
+D:\ProyectoBDprueba\CursoC#13Ene21\CondicionIF\CondicionIF\bin\Debug\netcoreapp3.1\CondicionIF.runtimeconfig.json
+D:\ProyectoBDprueba\CursoC#13Ene21\CondicionIF\CondicionIF\bin\Debug\netcoreapp3.1\CondicionIF.runtimeconfig.dev.json
+D:\ProyectoBDprueba\CursoC#13Ene21\CondicionIF\CondicionIF\bin\Debug\netcoreapp3.1\CondicionIF.dll
+D:\ProyectoBDprueba\CursoC#13Ene21\CondicionIF\CondicionIF\bin\Debug\netcoreapp3.1\CondicionIF.pdb
+D:\ProyectoBDprueba\CursoC#13Ene21\CondicionIF\CondicionIF\obj\Debug\netcoreapp3.1\CondicionIF.csprojAssemblyReference.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\CondicionIF\CondicionIF\obj\Debug\netcoreapp3.1\CondicionIF.AssemblyInfoInputs.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\CondicionIF\CondicionIF\obj\Debug\netcoreapp3.1\CondicionIF.AssemblyInfo.cs
+D:\ProyectoBDprueba\CursoC#13Ene21\CondicionIF\CondicionIF\obj\Debug\netcoreapp3.1\CondicionIF.csproj.CoreCompileInputs.cache
+D:\ProyectoBDprueba\CursoC#13Ene21\CondicionIF\CondicionIF\obj\Debug\netcoreapp3.1\CondicionIF.dll
+D:\ProyectoBDprueba\CursoC#13Ene21\CondicionIF\CondicionIF\obj\Debug\netcoreapp3.1\CondicionIF.pdb
+D:\ProyectoBDprueba\CursoC#13Ene21\CondicionIF\CondicionIF\obj\Debug\netcoreapp3.1\CondicionIF.genruntimeconfig.cache

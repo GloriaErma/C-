@@ -1,0 +1,15 @@
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-INotifyPropertyChanged\WPF-INotifyPropertyChanged\bin\Debug\WPF-INotifyPropertyChanged.exe.config
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-INotifyPropertyChanged\WPF-INotifyPropertyChanged\bin\Debug\WPF-INotifyPropertyChanged.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-INotifyPropertyChanged\WPF-INotifyPropertyChanged\bin\Debug\WPF-INotifyPropertyChanged.pdb
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-INotifyPropertyChanged\WPF-INotifyPropertyChanged\obj\Debug\WPF-INotifyPropertyChanged.csprojAssemblyReference.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-INotifyPropertyChanged\WPF-INotifyPropertyChanged\obj\Debug\MainWindow.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-INotifyPropertyChanged\WPF-INotifyPropertyChanged\obj\Debug\App.g.cs
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-INotifyPropertyChanged\WPF-INotifyPropertyChanged\obj\Debug\WPF-INotifyPropertyChanged_MarkupCompile.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-INotifyPropertyChanged\WPF-INotifyPropertyChanged\obj\Debug\WPF-INotifyPropertyChanged_MarkupCompile.lref
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-INotifyPropertyChanged\WPF-INotifyPropertyChanged\obj\Debug\MainWindow.baml
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-INotifyPropertyChanged\WPF-INotifyPropertyChanged\obj\Debug\WPF-INotifyPropertyChanged.g.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-INotifyPropertyChanged\WPF-INotifyPropertyChanged\obj\Debug\WPF_INotifyPropertyChanged.Properties.Resources.resources
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-INotifyPropertyChanged\WPF-INotifyPropertyChanged\obj\Debug\WPF-INotifyPropertyChanged.csproj.GenerateResource.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-INotifyPropertyChanged\WPF-INotifyPropertyChanged\obj\Debug\WPF-INotifyPropertyChanged.csproj.CoreCompileInputs.cache
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-INotifyPropertyChanged\WPF-INotifyPropertyChanged\obj\Debug\WPF-INotifyPropertyChanged.exe
+D:\GECS-DEV\ProyectoBDprueba\CursoC#13Ene21\WPF-INotifyPropertyChanged\WPF-INotifyPropertyChanged\obj\Debug\WPF-INotifyPropertyChanged.pdb

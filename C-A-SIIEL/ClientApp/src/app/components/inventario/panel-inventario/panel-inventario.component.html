@@ -1,0 +1,57 @@
+<p>panel-inventario works!</p>
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-itema active" aria-current="page"><a href="#">Home</a></li>
+    <!-- <li class="breadcrumb-item"><a href="#">Contacto</a></li> -->
+    <!-- <li class="breadcrumb-item active" aria-current="page">Sección actual</li> -->
+  </ol>
+</nav>
+<div class="col">
+  <!-- <button class="btn btn-primary" (click)="VerFormTodo()">Ver Formulario </button> -->
+  <a href="/productos" class="btn btn-low" style="text-align:left; color:maroon">
+    <h3>Ir a Productos </h3>
+  </a>
+  <button (click)="irProductos()">Productos</button>
+</div>
+<div class="col">
+  <!-- <button class="btn btn-primary" (click)="VerFormTodo()">Ver Formulario </button> -->
+  <a href="/servicios" class="btn btn-low" style="text-align:left; color:maroon">
+    <h3>Ir a Servicios </h3>
+  </a>
+  <button (click)="irServicios()">Servicios</button>
+</div>
+<div class="col">
+  <!-- <button class="btn btn-primary" (click)="VerFormTodo()">Ver Formulario </button> -->
+  <a href="/combos" class="btn btn-low" style="text-align:left; color:maroon">
+    <h3>Ir a Combos </h3>
+  </a>
+  <button (click)="irCombos()">Combos</button>
+</div>
+<div class="col-sm-6">
+  <label for="VrPreSugerido">Procesos (*)</label>
+  <select id="cbPreSugerido" formControlName="preSugerido" placeholder="Seleccione uno" [ngClass]="{'is-invalid': submitted && formT.controls.preSugerido.errors}">
+    <option value="">Seleccione uno</option>
+    <option *ngFor="let item of arrOpciones" [value]="item.id">
+      {{ item.name }}
+    </option>
+  </select>
+  <div *ngIf="submitted && formT.controls.preSugerido.errors && formT.controls.preSugerido.errors.required" class="invalid-feedback">Campo obligatorio</div>
+</div>
+
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="/productos">Tablas Generales</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/productos">Productos</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/servicios">Servicios</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/combos">Combos</a>
+  </li>
+  <!--<li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>-->
+</ul>

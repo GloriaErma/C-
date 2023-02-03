@@ -1,0 +1,2 @@
+Se esta Leyendo archivo de prueba:   tirar.txt
+para Finally en C#
